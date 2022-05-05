@@ -10,7 +10,6 @@
 	<script src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
 </svelte:head>
 <script lang="ts">
-	import Header from '$lib/header/Header.svelte';
 	import '../app.css';
 </script>
 
