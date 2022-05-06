@@ -1,5 +1,5 @@
 <script lang="ts">
-  import Article from "./lib/article.svelte";
+  import Article from "../lib/article.svelte";
 </script>
 
 <svelte:head />

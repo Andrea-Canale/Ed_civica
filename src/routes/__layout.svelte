@@ -21,50 +21,56 @@
     <ul class="uk-navbar-nav">
       <li class="uk-active"><a href="/">Hackerinfo</a></li>
       <li>
-        <a href="#">Pericoli della rete</a>
+        <a href="#0">Pericoli della rete</a>
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
             <li>
-              <a href="/Fake-News">Fake News</a>
+              <a href="/pericoli/fake-news">Fake News</a>
             </li>
-            <li><a href="/Truffe-Online">Truffe Online</a></li>
-            <li><a href="/Furti-d'identità">Furti d' identità</a></li>
+            <li><a href="/pericoli/truffe">Truffe Online</a></li>
+            <li><a href="/pericoli/furti-ide">Furti d' identità</a></li>
           </ul>
         </div>
       </li>
       <li>
-        <a href="#">Strumenti di un Hacker</a>
+        <a href="#0">Strumenti di un Hacker</a>
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
             <li>
-              <a href="/Rubber-Ducky">Rubber Ducky</a>
+              <a href="/strumenti/rubber-ducky">Rubber Ducky</a>
             </li>
-            <li><a href="/Jammer">Jammer</a></li>
-            <li><a href="/Raspberry">Raspberry</a></li>
-            <li><a href="/LAN-Turtle">LAN Turtle</a></li>
-            <li><a href="/Tools">Tools</a></li>
+            <li><a href="/strumenti/jammer">Jammer</a></li>
+            <li><a href="/strumenti/raspberry">Raspberry</a></li>
+            <li><a href="/strumenti/lan-turtle">LAN Turtle</a></li>
+            <li><a href="/strumenti/tools">Tools</a></li>
           </ul>
         </div>
       </li>
       <li>
-        <a href="#">Crittografia</a>
+        <a href="#0">Crittografia</a>
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
-            <li><a href="/Sniffing">Sniffing</a></li>
+            <li><a href="/crittografia/sniffing">Sniffing</a></li>
           </ul>
         </div>
       </li>
       <li>
-        <a href="#">Sicurezza</a>
+        <a href="#0">Sicurezza</a>
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
             <li>
-              <a href="/Valutazione-rischi">Valutazione dei rischi</a>
+              <a href="/sicurezza/val-rischi">Valutazione dei rischi</a>
             </li>
-            <li><a href="/Reati-Informatici">Reati Informatici</a></li>
-            <li><a href="/Accessi-abusivi">Accesso abusivo ad un sistema informatico</a></li>
-            <li><a href="/Proteggersi-in-rete">Come proteggersi in rete</a></li>
-            <li><a href="/DDOS">DDOS</a></li>
+            <li><a href="/sicurezza/reati">Reati Informatici</a></li>
+            <li>
+              <a href="/sicurezza/accessi-abusivi"
+                >Accesso abusivo ad un sistema informatico</a
+              >
+            </li>
+            <li>
+              <a href="/sicurezza/proteggersi">Come proteggersi in rete</a>
+            </li>
+            <li><a href="/sicurezza/ddos">DDOS</a></li>
           </ul>
         </div>
       </li>
