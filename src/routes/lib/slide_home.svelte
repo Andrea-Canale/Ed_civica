@@ -5,7 +5,7 @@
 >
   <ul class="uk-slideshow-items">
     <li>
-      <img src="static/svelte-welcome.png" alt="" uk-cover />
+      <img src="/svelte-welcome.png" alt="" uk-cover />
       <div class="uk-position-center uk-position-small uk-text-center uk-light">
         <h2 class="uk-margin-remove">Center</h2>
         <p class="uk-margin-remove">
@@ -14,7 +14,7 @@
       </div>
     </li>
     <li>
-      <img src="static/svelte-welcome.png" alt="" uk-cover />
+      <img src="/svelte-welcome.png" alt="" uk-cover />
       <div
         class="uk-position-bottom uk-position-medium uk-text-center uk-light"
       >
@@ -25,7 +25,7 @@
       </div>
     </li>
     <li>
-      <img src="static/svelte-welcome.png" alt="" uk-cover />
+      <img src="/svelte-welcome.png" alt="" uk-cover />
       <div
         class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center"
       >
@@ -36,7 +36,7 @@
       </div>
     </li>
     <li>
-      <img src="static/svelte-welcome.png" alt="" uk-cover />
+      <img src="/svelte-welcome.png" alt="" uk-cover />
       <div
         class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small"
       >
