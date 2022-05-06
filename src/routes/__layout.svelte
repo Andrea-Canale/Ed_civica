@@ -8,7 +8,6 @@
     rel="stylesheet"
     href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css"
   />
-
   <!-- UIkit JS -->
   <script
     src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
@@ -16,7 +15,7 @@
     src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
 </svelte:head>
 
-<nav class="uk-navbar-container" uk-navbar>
+<nav class="uk-navbar-container .uk-width-*" uk-navbar>
   <div class="uk-navbar-left">
     <ul class="uk-navbar-nav">
       <li class="uk-active"><a href="/">Hackerinfo</a></li>
