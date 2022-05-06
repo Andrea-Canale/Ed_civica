@@ -1,0 +1,19 @@
+<script lang="ts">
+
+import Article from './lib/article.svelte';
+</script>
+
+
+<svelte:head>
+    
+</svelte:head>
+
+<body>
+    <Article 
+    header="Il jammer"
+    meta = "Scritto da Andrea    header="Il jammer"
+    Canale e Marco Cellini Venerdì 6 Maggio 2022"
+    subtitle = "Il jammer"
+    text = "Il jammer è un disturbatore di segnale"
+    ></Article>
+</body>

@@ -39,7 +39,7 @@
             <li>
               <a href="#">Rubber Ducky</a>
             </li>
-            <li><a href="#">Jammer</a></li>
+            <li><a href="/jammer">Jammer</a></li>
             <li><a href="#">Raspberry</a></li>
             <li><a href="/ddos">LAN Turtle</a></li>
             <li><a href="/ddos">Tools</a></li>

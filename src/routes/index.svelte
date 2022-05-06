@@ -1,8 +1,5 @@
-<script context="module" lang="ts">
-  export const prerender = true;
-</script>
-
 <script lang="ts">
+import Slide from './lib/slide_home.svelte'
 </script>
 
 <svelte:head>
@@ -10,5 +7,9 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
+
+<body>
+  <Slide></Slide>
+</body>
 <style>
 </style>
