@@ -8,7 +8,9 @@
 </svelte:head>
 
 <body>
-  <Slide />
+  <!--<Slide />-->
+  <hr>
+  <h1>Home del progetto di Educazione Civica di Andrea Canale e Marco Cellini</h1>
 </body>
 
 <style>

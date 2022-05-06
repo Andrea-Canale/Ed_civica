@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
 </svelte:head>
 
-<body>
+<section>
   <div class="container">
     <Article
       header="Il Jammer"
@@ -94,4 +94,4 @@
   <p>Dopo l'inizio dell'attacco il client inizierà a non ricevere più connessione anche se lui sarà sempre connesso alla rete secondo il suo OS.</p>
   </div>
   <br>
-</body>
+</section>
