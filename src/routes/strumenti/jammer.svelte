@@ -5,6 +5,7 @@
 
 <svelte:head>
 <link rel="stylesheet" href="/css/jammer.css">
+<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
 </svelte:head>
 
 <body>
@@ -73,7 +74,7 @@
     >
   </Bash>
   <!--Immagine di prova, appena arriva un portatile la sostituisco :-) -->
-  <img src="/img/airodump.png" alt="airodump"/>
+  <img src="/img/airodump.png" alt="airodump" class="pure-img"/>
   <p>Come possiamo vedere qui abbiamo tutte le informazioni delle nostre reti Wi-Fi come il BSSID, la potenza, l'SSID e altri parametri, in basso ci sono tutti i client connessi alle reti.</p>
   <p>Quello che ci serve da questa schermata è il BSSID che vogliamo attaccare con il nostro Jammer.</p>
   <p>Una volta preso il BSSID lanciamo il seguente comando sostituendo il BSSID e il canale di trasmissione.</p>
