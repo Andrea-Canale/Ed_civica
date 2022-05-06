@@ -1,5 +1,5 @@
 <script lang="ts">
-import Slide from './lib/slide_home.svelte'
+  import Slide from "./lib/slide_home.svelte";
 </script>
 
 <svelte:head>
@@ -7,9 +7,9 @@ import Slide from './lib/slide_home.svelte'
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-
 <body>
-  <Slide></Slide>
+  <Slide />
 </body>
+
 <style>
 </style>

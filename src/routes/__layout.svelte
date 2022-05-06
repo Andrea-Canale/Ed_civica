@@ -1,5 +1,5 @@
 <script lang="ts">
-	import '../app.css';
+  import "../app.css";
 </script>
 
 <svelte:head>
@@ -25,10 +25,10 @@
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
             <li>
-              <a href="#">Fake News</a>
+              <a href="/Fake-News">Fake News</a>
             </li>
-            <li><a href="#">Truffe sul Web</a></li>
-            <li><a href="#">Furti di identità</a></li>
+            <li><a href="/Truffe-Online">Truffe Online</a></li>
+            <li><a href="/Furti-d'identità">Furti d' identità</a></li>
           </ul>
         </div>
       </li>
@@ -37,12 +37,12 @@
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
             <li>
-              <a href="#">Rubber Ducky</a>
+              <a href="/Rubber-Ducky">Rubber Ducky</a>
             </li>
-            <li><a href="/jammer">Jammer</a></li>
-            <li><a href="#">Raspberry</a></li>
-            <li><a href="/ddos">LAN Turtle</a></li>
-            <li><a href="/ddos">Tools</a></li>
+            <li><a href="/Jammer">Jammer</a></li>
+            <li><a href="/Raspberry">Raspberry</a></li>
+            <li><a href="/LAN-Turtle">LAN Turtle</a></li>
+            <li><a href="/Tools">Tools</a></li>
           </ul>
         </div>
       </li>
@@ -50,7 +50,7 @@
         <a href="#">Crittografia</a>
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
-            <li><a href="#">Sniffing</a></li>
+            <li><a href="/Sniffing">Sniffing</a></li>
           </ul>
         </div>
       </li>
@@ -59,15 +59,16 @@
         <div class="uk-navbar-dropdown">
           <ul class="uk-nav uk-navbar-dropdown-nav">
             <li>
-              <a href="#">Valutazione dei rischi</a>
+              <a href="/Valutazione-rischi">Valutazione dei rischi</a>
             </li>
-            <li><a href="#">Reati Informatici</a></li>
-            <li><a href="#">Accesso abusivo ad un sistema informatico</a></li>
-            <li><a href="/ddos">Come proteggersi in rete</a></li>
-            <li><a href="/ddos">DDOS</a></li>
+            <li><a href="/Reati-Informatici">Reati Informatici</a></li>
+            <li><a href="/Accessi-abusivi">Accesso abusivo ad un sistema informatico</a></li>
+            <li><a href="/Proteggersi-in-rete">Come proteggersi in rete</a></li>
+            <li><a href="/DDOS">DDOS</a></li>
           </ul>
         </div>
       </li>
+    </ul>
   </div>
 </nav>
 
