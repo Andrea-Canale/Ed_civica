@@ -5,7 +5,7 @@
 >
   <ul class="uk-slideshow-items">
     <li>
-      <img src="img/fake_news.png" alt="" uk-cover />
+      <img src="/img/fake_news.png" alt="" uk-cover />
       <div class="uk-position-center uk-position-small uk-text-center uk-light">
         <h2 class="uk-margin-remove">Fake News</h2>
         <p class="uk-margin-remove">
@@ -14,7 +14,7 @@
       </div>
     </li>
     <li>
-      <img src="img/truffe_online.jpg" alt="" uk-cover />
+      <img src="/img/truffe_online.jpg" alt="" uk-cover />
       <div
         class="uk-position-bottom uk-position-medium uk-text-center uk-light"
       >
@@ -25,7 +25,7 @@
       </div>
     </li>
     <li>
-      <img src="img/furti-identità.jpg" alt="" uk-cover />
+      <img src="/img/furti-identità.jpg" alt="" uk-cover />
       <div
         class="uk-overlay uk-overlay-primary uk-position-bottom uk-text-center"
       >
@@ -36,7 +36,7 @@
       </div>
     </li>
     <li>
-      <img src="img/rubber_ducky.png" alt="" uk-cover />
+      <img src="/img/rubber_ducky.png" alt="" uk-cover />
       <div
         class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small"
       >
@@ -45,7 +45,7 @@
       </div>
     </li>
     <li>
-      <img src="img/jammer_sfondo.png" alt="" uk-cover />
+      <img src="/img/jammer_sfondo.png" alt="" uk-cover />
       <div class="uk-position-center uk-position-small uk-text-center uk-light">
         <h2 class="uk-margin-remove">Jammer</h2>
         <p class="uk-margin-remove">
@@ -54,7 +54,7 @@
       </div>
     </li>
     <li>
-      <img src="img/raspberry.png" alt="" uk-cover />
+      <img src="/img/raspberry.png" alt="" uk-cover />
       <div
         class="uk-position-bottom uk-position-medium uk-text-center uk-light"
       >
@@ -65,7 +65,7 @@
       </div>
     </li>
     <li>
-      <img src="img/lan_turtle.png" alt="" uk-cover />
+      <img src="/img/lan_turtle.png" alt="" uk-cover />
       <div
         class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small"
       >
@@ -74,7 +74,7 @@
       </div>
     </li>
     <li>
-      <img src="img/tools_kali.jpg" alt="" uk-cover />
+      <img src="/img/tools_kali.jpg" alt="" uk-cover />
       <div class="uk-position-center uk-position-small uk-text-center uk-light">
         <h2 class="uk-margin-remove">Tool Kali Linux</h2>
         <p class="uk-margin-remove">
@@ -83,7 +83,7 @@
       </div>
     </li>
     <li>
-      <img src="img/sniffing.png" alt="" uk-cover />
+      <img src="/img/sniffing.png" alt="" uk-cover />
       <div
         class="uk-position-bottom uk-position-medium uk-text-center uk-light"
       >
@@ -94,7 +94,7 @@
       </div>
     </li>
     <li>
-      <img src="img/reati_informatici.jpeg" alt="" uk-cover />
+      <img src="/img/reati_informatici.jpeg" alt="" uk-cover />
       <div
         class="uk-overlay uk-overlay-default uk-position-bottom-right uk-position-small"
       >
@@ -103,7 +103,7 @@
       </div>
     </li>
     <li>
-      <img src="img/protezione_in_rete.jpg" alt="" uk-cover />
+      <img src="/img/protezione_in_rete.jpg" alt="" uk-cover />
       <div class="uk-position-center uk-position-small uk-text-center uk-light">
         <h2 class="uk-margin-remove">Come proteggersi in Rete</h2>
         <p class="uk-margin-remove">
@@ -112,7 +112,7 @@
       </div>
     </li>
     <li>
-      <img src="img/ddos.jpg" alt="" uk-cover />
+      <img src="/img/ddos.jpg" alt="" uk-cover />
       <div
         class="uk-position-bottom uk-position-medium uk-text-center uk-light"
       >
