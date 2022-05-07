@@ -7,13 +7,16 @@
   <meta name="description" content="Svelte demo app" />
 </svelte:head>
 
-<body>
-  <Slide />
-  <hr />
+<section>
+  <h1>&nbsp;</h1>
   <h1>
     Home del progetto di Educazione Civica di Andrea Canale e Marco Cellini
   </h1>
-</body>
+  <h1>&nbsp;</h1>
+  <Slide />
+  <hr />
+
+</section>
 
 <style>
 </style>
