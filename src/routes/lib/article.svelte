@@ -4,7 +4,8 @@
     subtitle: string,
     text: string,
     imgsrc: string,
-    imgcomment: string;
+    imgcomment: string,
+    imgmaxwidth: string;
 </script>
 
 <svelte:head>
@@ -15,15 +16,20 @@
 </svelte:head>
 
 <article class="uk-article">
-  <h1 class="uk-article-title">
-    <a class="uk-link-reset" href="#0">{header}</a>
+  <h1>
+    {header}
   </h1>
 
   <p class="uk-article-meta">{meta}</p>
 
-  <p class="uk-text-lead">{subtitle}</p>
+  <p>{subtitle}</p>
   <div align="center">
-    <img src={imgsrc} class="pure-img" alt={"foto di " + header} />
+    <img
+      src={imgsrc}
+      class="pure-img"
+      style={"max-width: " + imgmaxwidth}
+      alt={"foto di " + header}
+    />
     <p>{imgcomment}</p>
   </div>
   <p>{text}</p>

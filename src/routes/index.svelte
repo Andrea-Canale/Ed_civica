@@ -14,9 +14,11 @@
   </h1>
   <h1>&nbsp;</h1>
   <Slide />
-  <hr />
-
+  <br />
 </section>
 
 <style>
+  h1 {
+    color: white;
+  }
 </style>

