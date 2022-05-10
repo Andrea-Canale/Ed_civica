@@ -34,13 +34,13 @@
   <hr class="uk-divider-icon" />
   <h1>Cosa sono le fake news?</h1>
   <div align="center" class="container">
-    <h5>
+    <p>
       Le fake news sono notizie false che vengono diffuse deliberatamente. A
       prima vista, le fake news assomigliano alle notizie o ai report classici.
       Tuttavia, l’obiettivo degli autori non è quello di adempiere al dovere di
       informare, bensì quello di manipolare l’opinione pubblica e scatenare
       emozioni come la paura e l’insicurezza.
-    </h5>
+    </p>
     <p>
       Gruppi con opinioni estreme, xenofobia o una particolare visione del mondo
       abusano di internet per fomentare gli animi e diffondere opinioni
@@ -51,10 +51,10 @@
     <hr class="uk-divider-icon" />
     <h1>Come individuare le fake news</h1>
     <div align="centre" class="container">
-      <h5>
+      <p>
         Individuare informazioni false non è sempre facile. Ecco alcuni indizi
         per riconoscere le fonti affidabili:
-      </h5>
+    </p>
     </div>
 
     <div align="left" class="container">
@@ -64,14 +64,14 @@
     <hr class="uk-divider-icon" />
     <h1>I social media sono moltiplicatori di fake news?</h1>
     <div align="center" class="container">
-      <h5>
+      <p>
         Le fake news si diffondono principalmente attraverso le reti sociali,
         come Facebook, Twitter, Instagram, YouTube, o servizi di messaggeria
         come Telegram o WhatsApp. Le notizie false che seminano dubbi,
         ridicolizzano una tesi o escludono le minoranze ricevono facilmente un
         «like» o vengono condivise e commentate più rapidamente e, spesso, si
         diffondono in pochissimo tempo.
-      </h5>
+      </p>
       <p>
         Questo aspetto è particolarmente problematico perché i social media
         stanno sempre più sostituendo i classici media come giornali, radio,

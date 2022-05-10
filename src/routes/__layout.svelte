@@ -629,7 +629,7 @@
       <a href="/pericoli/fake-news">Fake News</a>
 
       <a href="/pericoli/truffe">Truffe Online</a>
-      <a href="/pericoli/furti-ide">Furti d' identità</a>
+      <a href="/pericoli/furti-ide">Furti d'identità</a>
     </div>
   </div>
   <div class="dropdown">
