@@ -2,9 +2,14 @@
   import Article from "../lib/article.svelte";
   import UnorderedList from "../lib/UnorderedList.svelte";
   import Punti_truffe from "../lib/Punti_truffe.svelte";
+  import Punto2_truffe from "../lib/Punto2_truffe.svelte";
 
   import punto_truffe1 from "../lib/punto_truffe1.svelte";
   import punto_truffe2 from "../lib/punto_truffe2.svelte";
+
+  import punto2_truffe1 from "../lib/punto2_truffe1.svelte";
+  import punto2_truffe2 from "../lib/punto2_truffe2.svelte";
+  import punto2_truffe3 from "../lib/punto2_truffe3.svelte";
 
   import p_truffe3 from "../lib/p_truffe3.svelte";
   import p_truffe4 from "../lib/p_truffe4.svelte";
@@ -15,6 +20,7 @@
 
   const cmps = [punto_truffe1, punto_truffe2];
   const t = [p_truffe3, p_truffe4, p_truffe5, p_truffe6, p_truffe7, p_truffe8];
+  const p = [punto2_truffe1, punto2_truffe2, punto2_truffe3];
 </script>
 
 <svelte:head>
@@ -101,6 +107,9 @@
           Pertanto, nel momento in cui si compra su Internet, è bene procedere
           con cautela:
         </p>
+      </div>
+      <div align="left" class="container">
+          <Punto2_truffe {p} />
       </div>
 
       <br />
