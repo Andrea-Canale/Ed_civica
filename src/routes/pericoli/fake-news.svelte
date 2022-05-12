@@ -54,7 +54,7 @@
       <p>
         Individuare informazioni false non è sempre facile. Ecco alcuni indizi
         per riconoscere le fonti affidabili:
-    </p>
+      </p>
     </div>
 
     <div align="left" class="container">
