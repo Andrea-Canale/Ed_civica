@@ -642,7 +642,6 @@
 
       <a href="/strumenti/jammer">Jammer</a>
       <a href="/strumenti/raspberry">Raspberry</a>
-      <a href="/strumenti/lan-turtle">LAN Turtle</a>
       <a href="/strumenti/tools">Tools</a>
     </div>
   </div>

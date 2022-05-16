@@ -75,17 +75,6 @@
     </SplideSlide>
     <SplideSlide>
       <div align="center">
-        <a href="/strumenti/lan-turtle"
-          ><img
-            src="/img/lan_turtle.png"
-            alt="LAN turtle"
-            class="pure-img"
-          /></a
-        >
-      </div>
-    </SplideSlide>
-    <SplideSlide>
-      <div align="center">
         <a href="/strumenti/tools"
           ><img src="/img/tools_kali.jpg" alt="Kali" class="pure-img" /></a
         >
