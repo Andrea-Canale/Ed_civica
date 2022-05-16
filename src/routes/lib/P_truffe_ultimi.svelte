@@ -1,9 +1,9 @@
 <script lang="ts">
-  export let p: Array<String> = [];
+  export let last: Array<String> = [];
 </script>
 
 <ul>
-  {#each p as cmp}
+  {#each last as cmp}
     <li>
       <svelte:component this={cmp} />
     </li>

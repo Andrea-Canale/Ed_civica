@@ -3,6 +3,7 @@
   import UnorderedList from "../lib/UnorderedList.svelte";
   import Punti_truffe from "../lib/Punti_truffe.svelte";
   import Punto2_truffe from "../lib/Punto2_truffe.svelte";
+  import P_truffe_ultimi from "../lib/P_truffe_ultimi.svelte";
 
   import punto_truffe1 from "../lib/punto_truffe1.svelte";
   import punto_truffe2 from "../lib/punto_truffe2.svelte";
@@ -18,9 +19,13 @@
   import p_truffe7 from "../lib/p_truffe7.svelte";
   import p_truffe8 from "../lib/p_truffe8.svelte";
 
+  import p_truffe_9 from "../lib/p_truffe_9.svelte";
+  import p_truffe_10 from "../lib/p_truffe_10.svelte";
+
   const cmps = [punto_truffe1, punto_truffe2];
   const t = [p_truffe3, p_truffe4, p_truffe5, p_truffe6, p_truffe7, p_truffe8];
   const p = [punto2_truffe1, punto2_truffe2, punto2_truffe3];
+  const last = [p_truffe_9, p_truffe_10];
 </script>
 
 <svelte:head>
@@ -109,8 +114,22 @@
         </p>
       </div>
       <div align="left" class="container">
-          <Punto2_truffe {p} />
+        <Punto2_truffe {p} />
+
+        <p>
+          Quando non si conosce un sito, si suggerisce sempre di fare una
+          ricerca in rete per leggere le opinioni di altri utenti che hanno già
+          comprato qualcosa e di verificare:
+        </p>
+        <P_truffe_ultimi {last} />
       </div>
+
+      <p>
+        Nel caso in cui, nonostante tutte le precauzioni del caso, si avesse
+        comunque la sfortuna di essere truffati online, non bisogna darsi per
+        vinti: è possibile sporgere denuncia alle autorità competenti in
+        materia.
+      </p>
 
       <br />
     </div>
