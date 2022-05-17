@@ -41,7 +41,7 @@
     <Article
       imgmaxwidth="500px"
       header="Truffe Online"
-      meta="Scritto da Marco Cellini Domenica 12 Maggio 2022"
+      meta="Scritto da Andrea Canale, Marco Cellini e Gioele Mari Domenica 12 Maggio 2022"
       subtitle=""
       text="Una delle forme più comuni del reato di truffa ai tempi di Internet è la cosiddetta truffa online: 
         si tratta di un reato che sul web viene declinato in molteplici forme, 

@@ -22,7 +22,7 @@
     <Article
       imgmaxwidth="500px"
       header="Le Fake News"
-      meta="Scritto da Marco Cellini Domenica 8 Maggio 2022"
+      meta="Scritto da Andrea Canale, Marco Cellini e Gioele Mari Domenica 8 Maggio 2022"
       subtitle=""
       text="Le reti social sono un terreno fertile per le fake news. 
         Le fake news hanno gioco facile se i contenuti sono letti acriticamente. 

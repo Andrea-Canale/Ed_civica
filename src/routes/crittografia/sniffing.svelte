@@ -15,7 +15,7 @@
   <div class="container">
     <Article
       header="Sniffing"
-      meta="Scritto da Andrea Canale, Domenica 8 maggio 2022"
+      meta="Scritto da Andrea Canale, Marco Cellini e Gioele Mari Domenica 8 maggio 2022"
       subtitle="Parliamo di sniffing"
       text="La tecnica dello sniffing permette di catturare tutto il traffico che sta passando in una rete, spesso lo sniffing,
           viene usato per individuare problemi in una rete ma i malintenzionati possono catturare il traffico di rete e estrapolare delle informazioni,

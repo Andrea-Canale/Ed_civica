@@ -1,3 +1,3 @@
 # Progetto di Educazione civica sulla sicurezza informatica
 
-## Andrea Canale e Marco Cellini
+## Andrea Canale, Marco Cellini e Gioele Mari
