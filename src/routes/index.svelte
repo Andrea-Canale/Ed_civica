@@ -10,7 +10,8 @@
 <section>
   <h1>&nbsp;</h1>
   <h1>
-    Home del progetto di Educazione Civica di Andrea Canale, Marco Cellini e Gioele Mari
+    Home del progetto di Educazione Civica di Andrea Canale, Marco Cellini e
+    Gioele Mari
   </h1>
   <h1>&nbsp;</h1>
   <Slide />

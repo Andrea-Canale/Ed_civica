@@ -70,21 +70,31 @@
     <p>A questo punto tutti i tool che dobbiamo usare sono pronti</p>
     <hr class="uk-divider-icon" />
     <h1>Eseguiamo l'ARP spoofing</h1>
-    <p>Scanerizzando la rete con il nostro tool preferito, io personalmente uso nmap e prendiamo l'IP del dispositivo che dobbiamo sniffare</p>
+    <p>
+      Scanerizzando la rete con il nostro tool preferito, io personalmente uso
+      nmap e prendiamo l'IP del dispositivo che dobbiamo sniffare
+    </p>
     <p>Una volta preso l'IP, apriamo bettercap</p>
-    <Bash
-      command="sudo bettercap -G"
-      background="grey"
-      commandcolor="white"
-    />
+    <Bash command="sudo bettercap -G" background="grey" commandcolor="white" />
     <p>Si aprirà bettercap</p>
-    <img src="/img/ettercap.png" alt="ettercap"/>
+    <img src="/img/ettercap.png" alt="ettercap" />
     <p>Selezioniamo l'interfaccia da dove sniffare e avviamolo</p>
-    <p>Poi apriamo la lista degli host dalla Host List e avviamo la scansione degli host</p>
-    <img src="/img/bettercaphost.png" alt="ettercaphost"/>
-    <p>Selezioniamo l'IP da sniffare nel target 2 e nel target 1 mettiamo l'IP del server DHCP, se presente, io sto usando un semplice switch e quindi non lo selezionerò. Infine, avviamo l'ARP spoofing</p>
-    <img src="/img/bettercaparp.png" alt="bettercapARP"/>
-    <p>Quando il PC che stiamo sniffando entrerà su un sito non sicuro(HTTP) wireshark ed ettercap prenderanno le credenziali e verranno visualizzate insieme a tutto il codice HTML e le immagini</p>
+    <p>
+      Poi apriamo la lista degli host dalla Host List e avviamo la scansione
+      degli host
+    </p>
+    <img src="/img/bettercaphost.png" alt="ettercaphost" />
+    <p>
+      Selezioniamo l'IP da sniffare nel target 2 e nel target 1 mettiamo l'IP
+      del server DHCP, se presente, io sto usando un semplice switch e quindi
+      non lo selezionerò. Infine, avviamo l'ARP spoofing
+    </p>
+    <img src="/img/bettercaparp.png" alt="bettercapARP" />
+    <p>
+      Quando il PC che stiamo sniffando entrerà su un sito non sicuro(HTTP)
+      wireshark ed ettercap prenderanno le credenziali e verranno visualizzate
+      insieme a tutto il codice HTML e le immagini
+    </p>
     <img src="/img/wiresharkcap.png" alt="wiresharkcap" />
     <p>Possiamo anche usare driftnet per vedere le immagini scaricate</p>
     <Bash
