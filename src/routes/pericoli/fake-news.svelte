@@ -1,12 +1,5 @@
 <script lang="ts">
   import Article from "../lib/article.svelte";
-  import UnorderedList from "../lib/UnorderedList.svelte";
-  import punto1 from "../lib/punto1.svelte";
-  import punto2 from "../lib/punto2.svelte";
-  import punto3 from "../lib/punto3.svelte";
-  import punto4 from "../lib/punto4.svelte";
-
-  const cmps = [punto1, punto2, punto3, punto4];
 </script>
 
 <svelte:head>
@@ -58,7 +51,31 @@
     </div>
 
     <div align="left" class="container">
-      <UnorderedList {cmps} />
+      <ul>
+        <li>
+          Il controllo delle fonti: Da dove provengono le informazioni? Chi ha
+          scritto la notizia e pubblicato il contenuto? La notizia è neutrale o
+          qualcuno vuole diffondere un suo messaggio? In quale formato (news,
+          reti sociali, YouTube, servizi di messaggeria) è stata pubblicata
+          questa notizia?
+        </li>
+        <li>
+          La verifica dei fatti: Questa notizia è attuale? Questo argomento è
+          riportato anche su altri canali noti e seri? Cosa si legge lì?
+        </li>
+        <li>
+          Il controllo del gruppo target: A chi è rivolta questa notizia? Se
+          questo messaggio è pubblicato sul web, quanta altra pubblicità è
+          visibile su questa pagina? Il titolo e il layout sembrano strani, ci
+          sono molti errori di ortografia o punti esclamativi?
+        </li>
+        <li>
+          Il controllo dell’URL: Che aspetto ha l’indirizzo URL (www.)? Le fake
+          news appaiono spesso su pagine che sembrano molto simili a un sito
+          serio. Anche l’indirizzo web può confondere perché molto simile a
+          quello del sito originale, ad esempio www.sfr.it invece di www.srf.it
+        </li>
+      </ul>
     </div>
 
     <hr class="uk-divider-icon" />
@@ -85,3 +102,9 @@
     </div>
   </div>
 </section>
+
+<style>
+  li {
+    color: white;
+  }
+</style>
