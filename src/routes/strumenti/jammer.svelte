@@ -30,7 +30,7 @@
     />
   </div>
   <hr class="uk-divider-icon" />
-  <h1>Costruiamo un Jammer Wi-Fi</h1>
+  <h1><strong>Costruiamo un Jammer Wi-Fi</strong></h1>
   <div align="center" class="container">
     <h5>
       La guida è a scopo didattico, i creatori non sono responsabili di
@@ -43,7 +43,7 @@
         >qui</a
       >)
     </p>
-    <hr class="uk-divider-icon" />
+
     <p>Installiamo la suite di Aircrack sul nostro OS</p>
     <Bash
       command="sudo apt-get install aircrack-ng #Debian e derivate"

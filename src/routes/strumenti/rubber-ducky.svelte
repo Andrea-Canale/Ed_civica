@@ -25,5 +25,7 @@
     />
   </div>
   <hr class="uk-divider-icon" />
-  <h1>Costruiamo una Rubber Ducky con un Arduino UNO o MEGA</h1>
+  <h1>
+    <strong>Costruiamo una Rubber Ducky con un Arduino UNO o MEGA</strong>
+  </h1>
 </section>

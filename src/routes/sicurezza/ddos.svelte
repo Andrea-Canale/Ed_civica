@@ -26,7 +26,7 @@
       imgsrc="/img/ddos.jpg"
     />
     <hr class="uk-divider-icon" />
-    <h1>Il primo attacco DDoS</h1>
+    <h1><strong>Il primo attacco DDoS</strong></h1>
     <p>
       La prima dimostrazione di attacco DoS(essendo stata fatta da un pc unico)
       è stata fatta da Khan C. Smith nel 1997 durante un evento che ha
@@ -36,7 +36,7 @@
       seguire.
     </p>
     <hr class="uk-divider-icon" />
-    <h1>I tipi di attacco DDoS</h1>
+    <h1><strong>I tipi di attacco DDoS</strong></h1>
     <h3>Sys-Flood</h3>
     <p>
       Il Syn-Flooding è stato il primo degli attacchi DoS e consiste nell'aprire
@@ -57,7 +57,7 @@
       POST senza fine e inviando degli header con un contenuto grande.
     </p>
     <hr class="uk-divider-icon" />
-    <h1>Come proteggere un sito dagli attacchi DDoS</h1>
+    <h1><strong>Come proteggere un sito dagli attacchi DDoS</strong></h1>
     <p>
       Per proteggere un sito dagli attacchi DDoS dobbiamo inanzitutto
       configurare il firewall per bloccare le richieste ICMP e bisogna
@@ -69,14 +69,13 @@
     </p>
   </div>
   <hr class="uk-divider-icon" />
-  <h1>Come eseguire un attacco DDoS</h1>
+  <h1><strong>Come eseguire un attacco DDoS</strong></h1>
   <div align="center" class="container">
     <h5>
       La guida è a scopo didattico, i creatori non sono responsabili di
       eventuali disagi arrecati ad altri seguendo questa guida.
     </h5>
     <p>Ci servirà Python 3 installato sul nostro PC</p>
-    <hr class="uk-divider-icon" />
     <p>
       Scarichiamo Slowloris da <a
         href="https://raw.githubusercontent.com/gkbrk/slowloris/master/slowloris.py"

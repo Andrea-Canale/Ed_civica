@@ -28,5 +28,5 @@
     />
   </div>
   <hr class="uk-divider-icon" />
-  <h1>Installiamo Kali Linux su un Raspberry PI</h1>
+  <h1><strong>Installiamo Kali Linux su un Raspberry PI</strong></h1>
 </section>

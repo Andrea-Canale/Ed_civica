@@ -68,7 +68,10 @@
 
     <hr class="uk-divider-icon" />
     <h1>
-      Ma andiamo ad esaminare in che cosa consiste il furto di identità digitale
+      <strong
+        >Ma andiamo ad esaminare in che cosa consiste il furto di identità
+        digitale</strong
+      >
     </h1>
     <div align="left" class="container">
       <p>
@@ -92,7 +95,7 @@
     </div>
 
     <hr class="uk-divider-icon" />
-    <h1>Qualche consiglio utile</h1>
+    <h1><strong>Qualche consiglio utile</strong></h1>
     <div align="center" class="container">
       <p>
         Come abbiamo visto è impossibile scongiurare del tutto il pericolo di un

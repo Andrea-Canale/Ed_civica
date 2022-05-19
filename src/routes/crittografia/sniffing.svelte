@@ -31,14 +31,16 @@
     />
   </div>
   <hr class="uk-divider-icon" />
-  <h1>Catturiamo i pacchetti all'interno di una rete con Wireshark</h1>
+  <h1>
+    <strong>Catturiamo i pacchetti all'interno di una rete con Wireshark</strong
+    >
+  </h1>
   <div align="center" class="container">
     <h5>
       La guida è a scopo didattico, i creatori non sono responsabili di
       eventuali disagi arrecati ad altri seguendo questa guida.
     </h5>
     <p>Per questa guida ci servirà un OS Windows, Linux o Mac OS</p>
-    <hr class="uk-divider-icon" />
     <p>Installiamo Wireshark sul nostro OS</p>
     <Bash
       command="sudo apt-get install wireshark #Debian e derivate"
@@ -69,7 +71,7 @@
     />
     <p>A questo punto tutti i tool che dobbiamo usare sono pronti</p>
     <hr class="uk-divider-icon" />
-    <h1>Eseguiamo l'ARP spoofing</h1>
+    <h1><strong>Eseguiamo l'ARP spoofing</strong></h1>
     <p>
       Scanerizzando la rete con il nostro tool preferito, io personalmente uso
       nmap e prendiamo l'IP del dispositivo che dobbiamo sniffare
