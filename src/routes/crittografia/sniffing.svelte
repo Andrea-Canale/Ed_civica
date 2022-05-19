@@ -79,7 +79,7 @@
     <p class="text">Una volta preso l'IP, apriamo bettercap</p>
     <Bash command="sudo bettercap -G" background="grey" commandcolor="white" />
     <p class="text">Si aprirà bettercap</p>
-    <img src="/img/slide/ettercap.png" alt="ettercap" />
+    <img src="/img/ettercap.png" alt="ettercap" />
     <p class="text">Selezioniamo l'interfaccia da dove sniffare e avviamolo</p>
     <p class="text">
       Poi apriamo la lista degli host dalla Host List e avviamo la scansione

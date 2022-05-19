@@ -686,6 +686,10 @@
 </main>
 
 <style>
+  @font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
   .navresponse {
     max-width: 2000px;
   }
@@ -708,5 +712,6 @@
   h1{
   font-family: Hacked;
   font-size: 64px;
+  color:white;
 }
 </style>
