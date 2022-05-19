@@ -21,7 +21,7 @@
         Le fake news hanno gioco facile se i contenuti sono letti acriticamente. 
         È quindi fondamentale che tutti imparino a distinguere tra opinioni e fatti e a identificare fonti credibili."
       imgcomment=""
-      imgsrc="/img/fake_news_pc.png"
+      imgsrc="/img/slide/fake_news_pc.png"
     />
   </div>
   <hr class="uk-divider-icon" />

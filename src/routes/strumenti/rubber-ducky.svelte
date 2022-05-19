@@ -21,7 +21,7 @@
       text="Una Rubber Ducky è una normale chiavetta che però viene riconosciuta come una tastiera e un mouse. Può eseguire codice malevolo,
       all'interno del PC senza che l'utente se ne accorga. Tuttavia su alcuni sistemi operativi non funziona correttamente, solitamente infatti si usa in ambiente Windows"
       imgcomment="Una rubber ducky della HAL5"
-      imgsrc="/img/rubber_ducky.png"
+      imgsrc="/img/slide/rubber_ducky.png"
     />
   </div>
   <hr class="uk-divider-icon" />

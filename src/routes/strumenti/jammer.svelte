@@ -26,7 +26,7 @@
       Gli ultimi modelli di Jammer, tuttavia riescono a colpire anche alcune bande 4G e 5G a lungo raggio e il GPS a corto raggio.
       C'è anche l'anti-jammer che serve come rivelatore di disturbi che quindi avvisa della presenza di un disturbo duraturo."
       imgcomment="Un jammer a 18 frequenze"
-      imgsrc="/img/jammer.png"
+      imgsrc="/img/slide/jammer.png"
     />
   </div>
   <hr class="uk-divider-icon" />

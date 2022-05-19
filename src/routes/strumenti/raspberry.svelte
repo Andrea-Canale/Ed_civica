@@ -24,7 +24,7 @@
         un supporto ad innumerevoli periferiche. I Raspberry usano chip Broadcom solitamente che hanno un buon supporto ad attacchi Wi-Fi e sono molto potenti in relazione al consumo.
         "
       imgcomment="Un raspberry"
-      imgsrc="/img/raspberry.png"
+      imgsrc="/img/slide/raspberry.png"
     />
   </div>
   <hr class="uk-divider-icon" />

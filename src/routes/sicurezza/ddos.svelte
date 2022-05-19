@@ -23,7 +23,7 @@
       Solitamente, viene eseguito da una botnet di computer per avere una potenza computazionale elevatissima. Gli hacker per creare una botnet devono mandare un virus in modo da prendere il controllo del PC
       e iniziare l'attacco DDoS. "
       imgcomment=""
-      imgsrc="/img/ddos.jpg"
+      imgsrc="/img/slide/ddos.jpg"
     />
     <hr class="uk-divider-icon" />
     <h1><strong>Il primo attacco DDoS</strong></h1>
