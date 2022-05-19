@@ -9,41 +9,46 @@
 <div align="center">
 <div class="slideshow-container" align="center">
 
-<div class="mySlides fade">
+<a href="/pericoli/fake-news">
+  <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <img src="/img/slide/fake_news_pc.png" >
   <h1>&nbsp;</h1>
   <div class="textslide">Fake news</div>
 </div>
-
+</a>
+<a href="/strumenti/jammer">
 <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <img src="/img/slide/jammer.png" >
   <h1>&nbsp;</h1>
   <div class="textslide">Il jammer</div>
 </div>
-
+</a>
+<a href="/strumenti/raspberry">
 <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <img src="/img/slide/raspberry.png" >
   <h1>&nbsp;</h1>
   <div class="textslide">Il raspberry</div>
 </div>
-
+</a>
+<a href="/strumenti/rubber-ducky">
 <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <img src="/img/slide/rubber_ducky.png" >
   <h1>&nbsp;</h1>
   <div class="textslide">Una rubber ducky</div>
 </div>
-
+</a>
+<a href="/crittografia/sniffing">
 <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a> 
   <img src="/img/slide/sniffing.jpeg" >
   <h1>&nbsp;</h1>
   <div class="textslide">Schema dello sniffing</div>
 </div>
-
+</a>
 
 <a class="next" onclick="plusSlides(1)">❯</a>
 
