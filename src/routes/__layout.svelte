@@ -739,7 +739,4 @@
     font-size: 64px;
     color: white;
   }
-  *{
-    color:white;
-  }
 </style>
