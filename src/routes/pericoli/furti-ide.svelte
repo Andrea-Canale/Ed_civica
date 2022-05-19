@@ -23,20 +23,20 @@
     />
   </div>
   <div align="center" class="container">
-    <p>
+    <p class="text">
       L’identità personale consisterebbe nella rappresentazione di un individuo
       in relazione al contesto sociale in cui sviluppa la sua personalità. Il
       concetto di identità personale contiene l'insieme delle caratteristiche
       dell'individuo.
     </p>
-    <p>
+    <p class="text">
       In questo senso, quindi, l’ordinamento giuridico riconosce il diritto del
       singolo a mantenere il controllo sulla rappresentazione che ha di sé agli
       occhi della società; da questi concetti si sviluppano, peraltro, le
       questioni giuridiche relative alla tutela dell’onore, del decoro, della
       reputazione, nonché del diritto all’immagine.
     </p>
-    <p>
+    <p class="text">
       In questo contesto si inserisce anche il concetto di identità digitale che
       è la rappresentazione di un individuo, identificabile in colui che
       crea/usa il dataset in cui essa è memorizzata. Uno dei primi studiosi ad
@@ -52,7 +52,7 @@
       identità personale.
     </p>
 
-    <p>
+    <p class="text">
       La popolarità e l’utilizzo massiccio di Internet hanno comportato la
       creazione di milioni di identità digitali, al fine di svolgere in questo
       spazio virtuale le attività più disparate. Si possono pertanto individuare
@@ -74,19 +74,19 @@
       >
     </h1>
     <div align="left" class="container">
-      <p>
+      <p class="text">
         Il furto d’identità digitale è un fenomeno criminoso prodromico alla
         commissione di ulteriori illeciti, che si articola in diverse fasi,
         ovvero:
       </p>
 
       <ul>
-        <li>l’ottenimento delle informazioni personali della vittima;</li>
-        <li>
+        <li class="text">l’ottenimento delle informazioni personali della vittima;</li>
+        <li class="text"> 
           l’interazione con le informazioni personali, che consiste nel possesso
           e nella vendita di tali dati;
         </li>
-        <li>
+        <li class="text">
           l’utilizzo delle informazioni personali illecitamente ottenute per
           commettere ulteriori reati, non necessariamente contro il patrimonio,
           ma anche ad esempio diffamazioni o minacce.
@@ -97,34 +97,34 @@
     <hr class="uk-divider-icon" />
     <h1><strong>Qualche consiglio utile</strong></h1>
     <div align="center" class="container">
-      <p>
+      <p class="text">
         Come abbiamo visto è impossibile scongiurare del tutto il pericolo di un
         furto d’identità, tuttavia ci sono degli accorgimenti che possono
         ridurre le possibilità che ciò accada.
       </p>
       <div align="left" class="container">
-        <p>
+        <p class="text">
           A titolo non esaustivo, ecco alcuni consigli utili per proteggere i
           dati personali ed evitare che qualcuno se ne impossessi:
         </p>
       </div>
       <div align="left" class="container">
         <ul>
-          <li>
+          <li class="text">
             scegliere password non banali con lettere minuscole, maiuscole,
             numeri e simboli e aggiornarle periodicamente;
           </li>
-          <li>
+          <li class="text">
             fare attenzione ad aprire email sospette e comunque non comunicare i
             propri dati personali, credenziali del conto via email, password e
             pin;
           </li>
-          <li>accedere ai social network dal vostro browser.</li>
+          <li class="text">accedere ai social network dal vostro browser.</li>
         </ul>
       </div>
 
       <div align="center" class="container">
-        <p>
+        <p class="text">
           Questi consigli sono sicuramente utili ma non possono fronteggiare le
           infinite possibilità di frode, quindi sempre tenere gli occhi aperti!
         </p>

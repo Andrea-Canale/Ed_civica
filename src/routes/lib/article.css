@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+}
+h1{
+  font-family: Hacked;
+  font-size: 64px;
+}
+.meta{
+  font-size: 15px;
+}
+.submeta{
+  font-size: 15px;
+}
+.text{
+  font-family: 'Raleway', sans-serif;
+  font-size: 18px;
+}

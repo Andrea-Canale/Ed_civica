@@ -32,11 +32,11 @@
   <hr class="uk-divider-icon" />
   <h1><strong>Costruiamo un Jammer Wi-Fi</strong></h1>
   <div align="center" class="container">
-    <h5>
+    <h5 class="text">
       La guida è a scopo didattico, i creatori non sono responsabili di
       eventuali disagi arrecati ad altri seguendo questa guida.
     </h5>
-    <p>
+    <p class="text">
       Per questa guida ci servirà una distribuzione di Linux o BSD o Mac OS e
       una scheda di rete compatibile(Trovate alcuni dei modelli compatibile <a
         href="javascript:window.open('https://www.kali.org/docs/nethunter/wireless-cards/')"
@@ -44,7 +44,7 @@
       >)
     </p>
 
-    <p>Installiamo la suite di Aircrack sul nostro OS</p>
+    <p class="text">Installiamo la suite di Aircrack sul nostro OS</p>
     <Bash
       command="sudo apt-get install aircrack-ng #Debian e derivate"
       background="grey"
@@ -65,12 +65,12 @@
       background="grey"
       commandcolor="white"
     />
-    <p>
+    <p class="text">
       Ora prendiamo il nome della nostra scheda Wi-Fi attraverso il seguente
       comando
     </p>
     <Bash command="iwconfig" background="grey" commandcolor="white" />
-    <p>
+    <p class="text">
       Adesso che sappiamo il nome della scheda, avviamo airmon per mandare la
       nostra scheda di rete in Monitor Mode, una modalità dove possiamo
       catturare i pacchetti Wi-Fi(Handshake di autorizzazione, dispositivi
@@ -82,11 +82,11 @@
       background="grey"
       commandcolor="white"
     />
-    <p>
+    <p class="text">
       Se il comando non dà errori la nostra scheda è pronta per catturare tutto
       lo spettro.
     </p>
-    <p>Iniziamo ad analizzare lo spettro con il seguente comando</p>
+    <p class="text">Iniziamo ad analizzare lo spettro con il seguente comando</p>
     <Bash
       command="airodump-ng wlan0mon #wlan0mon = nome scheda + mon"
       background="grey"
@@ -94,16 +94,16 @@
     />
     <!--Immagine di prova, appena arriva un portatile la sostituisco :-) -->
     <img src="/img/airodump.png" alt="airodump" class="pure-img" />
-    <p>
+    <p class="text">
       Come possiamo vedere qui abbiamo tutte le informazioni delle nostre reti
       Wi-Fi come il BSSID, la potenza, l'SSID e altri parametri, in basso ci
       sono tutti i client connessi alle reti.
     </p>
-    <p>
+    <p class="text">
       Quello che ci serve da questa schermata è il BSSID che vogliamo attaccare
       con il nostro Jammer.
     </p>
-    <p>
+    <p class="text">
       Una volta preso il BSSID lanciamo il seguente comando sostituendo il BSSID
       e il canale di trasmissione.
     </p>
@@ -112,7 +112,7 @@
       background="grey"
       commandcolor="white"
     />
-    <p>
+    <p class="text">
       Per un attacco più preciso possiamo mirare ad un client unico e non
       all'intero Wi-Fi, prendendo uno dei client connessi al Wi-Fi dalla
       schermata di airodump(dalla colonna STATION), facendo attenzione che il
@@ -123,7 +123,7 @@
       background="grey"
       commandcolor="white"
     />
-    <p>
+    <p class="text">
       Dopo l'inizio dell'attacco il client inizierà a non ricevere più
       connessione anche se lui sarà sempre connesso alla rete secondo il suo OS.
     </p>

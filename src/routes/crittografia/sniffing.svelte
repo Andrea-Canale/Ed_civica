@@ -36,12 +36,12 @@
     >
   </h1>
   <div align="center" class="container">
-    <h5>
+    <h5 class="text">
       La guida è a scopo didattico, i creatori non sono responsabili di
       eventuali disagi arrecati ad altri seguendo questa guida.
     </h5>
-    <p>Per questa guida ci servirà un OS Windows, Linux o Mac OS</p>
-    <p>Installiamo Wireshark sul nostro OS</p>
+    <p class="text">Per questa guida ci servirà un OS Windows, Linux o Mac OS</p>
+    <p class="text">Installiamo Wireshark sul nostro OS</p>
     <Bash
       command="sudo apt-get install wireshark #Debian e derivate"
       background="grey"
@@ -52,13 +52,13 @@
       background="grey"
       commandcolor="white"
     />
-    <p>
+    <p class="text">
       Per Windows scarichiamo l'installer da <a
         href="https://1.eu.dl.wireshark.org/win64/Wireshark-win64-3.6.5.exe"
         >qui</a
       >
     </p>
-    <p>Installiamo Bettercap per eseguire l'ARP spoofing</p>
+    <p class="text">Installiamo Bettercap per eseguire l'ARP spoofing</p>
     <Bash
       command="sudo apt-get install bettercap #Debian e derivate"
       background="grey"
@@ -69,36 +69,36 @@
       background="grey"
       commandcolor="white"
     />
-    <p>A questo punto tutti i tool che dobbiamo usare sono pronti</p>
+    <p class="text">A questo punto tutti i tool che dobbiamo usare sono pronti</p>
     <hr class="uk-divider-icon" />
     <h1><strong>Eseguiamo l'ARP spoofing</strong></h1>
-    <p>
+    <p class="text">
       Scanerizzando la rete con il nostro tool preferito, io personalmente uso
       nmap e prendiamo l'IP del dispositivo che dobbiamo sniffare
     </p>
-    <p>Una volta preso l'IP, apriamo bettercap</p>
+    <p class="text">Una volta preso l'IP, apriamo bettercap</p>
     <Bash command="sudo bettercap -G" background="grey" commandcolor="white" />
-    <p>Si aprirà bettercap</p>
+    <p class="text">Si aprirà bettercap</p>
     <img src="/img/ettercap.png" alt="ettercap" />
-    <p>Selezioniamo l'interfaccia da dove sniffare e avviamolo</p>
-    <p>
+    <p class="text">Selezioniamo l'interfaccia da dove sniffare e avviamolo</p>
+    <p class="text">
       Poi apriamo la lista degli host dalla Host List e avviamo la scansione
       degli host
     </p>
     <img src="/img/bettercaphost.png" alt="ettercaphost" />
-    <p>
+    <p class="text"> 
       Selezioniamo l'IP da sniffare nel target 2 e nel target 1 mettiamo l'IP
       del server DHCP, se presente, io sto usando un semplice switch e quindi
       non lo selezionerò. Infine, avviamo l'ARP spoofing
     </p>
     <img src="/img/bettercaparp.png" alt="bettercapARP" />
-    <p>
+    <p class="text">
       Quando il PC che stiamo sniffando entrerà su un sito non sicuro(HTTP)
       wireshark ed ettercap prenderanno le credenziali e verranno visualizzate
       insieme a tutto il codice HTML e le immagini
     </p>
     <img src="/img/wiresharkcap.png" alt="wiresharkcap" />
-    <p>Possiamo anche usare driftnet per vedere le immagini scaricate</p>
+    <p class="text">Possiamo anche usare driftnet per vedere le immagini scaricate</p>
     <Bash
       command="driftnet -i nome interfaccia"
       background="grey"

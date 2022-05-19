@@ -6,6 +6,7 @@
     imgsrc: string,
     imgcomment: string,
     imgmaxwidth: string;
+    import './article.css';
 </script>
 
 <svelte:head>
@@ -20,9 +21,9 @@
     {header}
   </h1>
 
-  <p class="uk-article-meta">{meta}</p>
+  <h3 class="uk-article-meta meta">{meta}</h3>
 
-  <p>{subtitle}</p>
+  <p class="submeta">{subtitle}</p>
   <div align="center">
     <img
       src={imgsrc}
@@ -32,5 +33,5 @@
     />
     <p>{imgcomment}</p>
   </div>
-  <p>{text}</p>
+  <p class="text">{text}</p>
 </article>
