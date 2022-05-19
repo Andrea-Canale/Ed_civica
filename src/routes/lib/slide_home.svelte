@@ -8,7 +8,8 @@
       .then((response) => {
         return response.json();
       })
-      .then((jsondata) => (images = jsondata));
+      .then((jsondata) => (images = jsondata))
+      .then(() => console.log("Slide init"));
   });
 </script>
 

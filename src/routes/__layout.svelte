@@ -585,19 +585,6 @@
       "width": 0
     },
     "particles": {
-      "shape": {
-        "type": "images",
-        "options": {
-          "images": {
-            "src": "",
-            "width": 500,
-            "height": 634
-          }
-        }
-      },
-      "size": {
-        "value": 40
-      },
       "move": {
         "speed": 10,
         "outModes": {
@@ -751,5 +738,8 @@
     font-family: Hacked;
     font-size: 64px;
     color: white;
+  }
+  *{
+    color:white;
   }
 </style>
