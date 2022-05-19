@@ -55,16 +55,7 @@
       <span class="dot" onclick="currentSlide(5)" />
     </div>
   </div>
-  <script>
-    slideIndex = 1;
-    showSlides(slideIndex);
 
-    function plusSlides(n) {
-      showSlides((slideIndex += n));
-    }
-
-<<<<<<< HEAD
-</div>
 <br>
 
 <div style="textslide-align:center">
@@ -74,8 +65,9 @@
   <span class="dot" onclick="currentSlide(4)"></span> 
   <span class="dot" onclick="currentSlide(5)"></span> 
 </div>
-</div>
+
 <script>
+  
 slideIndex = 1;
 showSlides(slideIndex);
 
