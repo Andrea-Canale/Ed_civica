@@ -86,7 +86,9 @@
       Se il comando non dà errori la nostra scheda è pronta per catturare tutto
       lo spettro.
     </p>
-    <p class="text">Iniziamo ad analizzare lo spettro con il seguente comando</p>
+    <p class="text">
+      Iniziamo ad analizzare lo spettro con il seguente comando
+    </p>
     <Bash
       command="airodump-ng wlan0mon #wlan0mon = nome scheda + mon"
       background="grey"

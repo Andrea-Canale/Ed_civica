@@ -727,7 +727,7 @@
   @font-face {
     font-family: Hacked;
     src: url(https://hackedfont.com/HACKED.ttf);
-}
+  }
   .navresponse {
     max-width: 2000px;
   }
@@ -747,9 +747,9 @@
     z-index: -1;
     background-color: black;
   }
-  h1{
-  font-family: Hacked;
-  font-size: 64px;
-  color:white;
-}
+  h1 {
+    font-family: Hacked;
+    font-size: 64px;
+    color: white;
+  }
 </style>
