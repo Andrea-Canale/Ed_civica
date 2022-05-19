@@ -1,8 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+@font-face {
+  font-family: Hacked;
+  src: url(https://hackedfont.com/HACKED.ttf);
+}
 p {
   color: white;
 }
 h1 {
-  color: rgb(255, 255, 255);
+  color: white;
   font-family: Hacked;
   font-size: 64px;
 }

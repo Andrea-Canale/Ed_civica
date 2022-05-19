@@ -17,7 +17,7 @@
 </svelte:head>
 
 <article class="uk-article">
-  <h1>
+  <h1 style="color:white;">
     {header}
   </h1>
 
