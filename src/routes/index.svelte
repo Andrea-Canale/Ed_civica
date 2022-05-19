@@ -1,9 +1,9 @@
 <script>
-    import { onMount } from "svelte";
+  import { onMount } from "svelte";
   import "uikit/dist/css/uikit.css";
   import "uikit/dist/js/uikit.js";
-  import Slide from './lib/slide_home.svelte'
-  let images= [];
+  import Slide from "./lib/slide_home.svelte";
+  let images = [];
   onMount(() => {
     fetch(window.location.href + "img/slide/img.json")
       .then((response) => {
@@ -13,6 +13,7 @@
       .then(() => console.log("Slide init"));
   });
 </script>
+
 <svelte:head>
   <title>Home</title>
 </svelte:head>
@@ -25,8 +26,7 @@
   </h1>
   <h1>&nbsp;</h1>
 
- 
-<Slide/>
+  <Slide />
 
   <br />
 </section>
