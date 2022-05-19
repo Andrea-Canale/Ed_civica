@@ -8,12 +8,15 @@ h1{
   font-size: 64px;
 }
 .meta{
+  color:white;
   font-size: 15px;
 }
 .submeta{
+  color:white;
   font-size: 15px;
 }
 .text{
+  color:white;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
