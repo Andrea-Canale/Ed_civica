@@ -40,7 +40,9 @@
       La guida è a scopo didattico, i creatori non sono responsabili di
       eventuali disagi arrecati ad altri seguendo questa guida.
     </h5>
-    <p class="text">Per questa guida ci servirà un OS Windows, Linux o Mac OS</p>
+    <p class="text">
+      Per questa guida ci servirà un OS Windows, Linux o Mac OS
+    </p>
     <p class="text">Installiamo Wireshark sul nostro OS</p>
     <Bash
       command="sudo apt-get install wireshark #Debian e derivate"
@@ -69,7 +71,9 @@
       background="grey"
       commandcolor="white"
     />
-    <p class="text">A questo punto tutti i tool che dobbiamo usare sono pronti</p>
+    <p class="text">
+      A questo punto tutti i tool che dobbiamo usare sono pronti
+    </p>
     <hr class="uk-divider-icon" />
     <h1><strong>Eseguiamo l'ARP spoofing</strong></h1>
     <p class="text">
@@ -86,7 +90,7 @@
       degli host
     </p>
     <img src="/img/bettercaphost.png" alt="ettercaphost" />
-    <p class="text"> 
+    <p class="text">
       Selezioniamo l'IP da sniffare nel target 2 e nel target 1 mettiamo l'IP
       del server DHCP, se presente, io sto usando un semplice switch e quindi
       non lo selezionerò. Infine, avviamo l'ARP spoofing
@@ -98,7 +102,9 @@
       insieme a tutto il codice HTML e le immagini
     </p>
     <img src="/img/wiresharkcap.png" alt="wiresharkcap" />
-    <p class="text">Possiamo anche usare driftnet per vedere le immagini scaricate</p>
+    <p class="text">
+      Possiamo anche usare driftnet per vedere le immagini scaricate
+    </p>
     <Bash
       command="driftnet -i nome interfaccia"
       background="grey"

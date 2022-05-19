@@ -6,7 +6,7 @@
     imgsrc: string,
     imgcomment: string,
     imgmaxwidth: string;
-    import './article.css';
+  import "./article.css";
 </script>
 
 <svelte:head>

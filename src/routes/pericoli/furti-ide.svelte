@@ -81,8 +81,10 @@
       </p>
 
       <ul>
-        <li class="text">l’ottenimento delle informazioni personali della vittima;</li>
-        <li class="text"> 
+        <li class="text">
+          l’ottenimento delle informazioni personali della vittima;
+        </li>
+        <li class="text">
           l’interazione con le informazioni personali, che consiste nel possesso
           e nella vendita di tali dati;
         </li>

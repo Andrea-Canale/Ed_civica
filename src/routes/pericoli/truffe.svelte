@@ -121,7 +121,9 @@
           <li class="text">
             evitando di salvare i dati della propria carta di credito online;
           </li>
-          <li class="text">utilizzando una carta prepagata contenente pochi soldi;</li>
+          <li class="text">
+            utilizzando una carta prepagata contenente pochi soldi;
+          </li>
           <li class="text">
             controllando i propri movimenti bancari, per esempio tramite
             l’attivazione di un servizio di SMS alert per essere sempre
