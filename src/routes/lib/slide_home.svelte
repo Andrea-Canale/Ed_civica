@@ -13,35 +13,35 @@
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <img src="/img/slide/fake_news_pc.png" >
   <h1>&nbsp;</h1>
-  <div class="text">Fake news</div>
+  <div class="textslide">Fake news</div>
 </div>
 
 <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <img src="/img/slide/jammer.png" >
   <h1>&nbsp;</h1>
-  <div class="text">Il jammer</div>
+  <div class="textslide">Il jammer</div>
 </div>
 
 <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <img src="/img/slide/raspberry.png" >
   <h1>&nbsp;</h1>
-  <div class="text">Il raspberry</div>
+  <div class="textslide">Il raspberry</div>
 </div>
 
 <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a>
   <img src="/img/slide/rubber_ducky.png" >
   <h1>&nbsp;</h1>
-  <div class="text">Una rubber ducky</div>
+  <div class="textslide">Una rubber ducky</div>
 </div>
 
 <div class="mySlides fade">
   <a class="prev" onclick="plusSlides(-1)">❮</a> 
   <img src="/img/slide/sniffing.jpeg" >
   <h1>&nbsp;</h1>
-  <div class="text">Schema dello sniffing</div>
+  <div class="textslide">Schema dello sniffing</div>
 </div>
 
 
@@ -50,7 +50,7 @@
 </div>
 <br>
 
-<div style="text-align:center">
+<div style="textslide-align:center">
   <span class="dot" onclick="currentSlide(1)"></span> 
   <span class="dot" onclick="currentSlide(2)"></span> 
   <span class="dot" onclick="currentSlide(3)"></span> 

@@ -1,6 +1,5 @@
 <script lang="ts">
   import Article from "../lib/article.svelte";
-  import Bash from "../lib/bash.svelte";
 </script>
 
 <svelte:head>
