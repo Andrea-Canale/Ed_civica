@@ -17,8 +17,6 @@
       color: {
         value: "#000000",
       },
-      image: "",
-      position: "50% 50%",
       repeat: "no-repeat",
       size: "cover",
       opacity: 1,
@@ -608,10 +606,6 @@
           },
         },
       },
-      position: {
-        x: -5,
-        y: 55,
-      },
     },
   };
 
@@ -643,9 +637,13 @@
     src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
   <link rel="stylesheet" href="/css/nav.css" />
 </svelte:head>
-<div class="topnav" id="myTopnav">
-  <a href="/" class="activenav">Home</a>
-  <div class="dropdown">
+<nav>
+<div align="center">
+<div class="topnav" id="myTopnav" align="center">
+  <a href="/" class="activenav">
+    <img src="/img/logo.png" width="32px"/>
+  </a>
+  <div class="dropdown" align="center">
     <button class="dropbtn"
       >Pericoli della rete
       <i class="fa fa-caret-down" />
@@ -700,6 +698,8 @@
     >&#9776;</a
   >
 </div>
+</div>
+</nav>
 <Particles
   id="tsparticles"
   options={particlesConfig}
@@ -739,4 +739,9 @@
       text-decoration: none;
       color: inherit;
  }
+ nav { 
+    text-align: center;
+    margin: 0 auto;
+    display: table; 
+   }
 </style>
