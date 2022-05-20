@@ -644,7 +644,7 @@
   <link rel="stylesheet" href="/css/nav.css" />
 </svelte:head>
 <div class="topnav" id="myTopnav">
-  <a href="/" class="active">Home</a>
+  <a href="/" class="activenav">Home</a>
   <div class="dropdown">
     <button class="dropbtn"
       >Pericoli della rete
@@ -735,4 +735,8 @@
     z-index: -1;
     background-color: black;
   }
+  a, a:hover, a:focus, a:active {
+      text-decoration: none;
+      color: inherit;
+ }
 </style>

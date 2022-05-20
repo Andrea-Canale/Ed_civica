@@ -16,11 +16,15 @@ h5 {
 }
 a {
   color: white;
+  text-decoration: none;
+}
+a, a:hover, a:focus, a:active {
+  text-decoration: none;
+  color: inherit;
 }
 strong{
   color:white;
 }
 .text{
   color:white;
-  font-family: Hacked;
 }

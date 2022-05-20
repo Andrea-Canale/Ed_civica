@@ -30,18 +30,18 @@
         <ul>
           <li class="text">Lista minima: prevede tutte quelle condotte ritenute necessariamente meritevoli di sanzioni penali. Il legislatore nazionale è sollecitato affinché inserisca delle specifiche disposizioni penali che puniscono quei comportamenti. Sono inseriti, ad esempio, la frode informatica e l’accesso abusivo ad un sistema informatico;</li>
           <li class="text">
-            Lista facoltativa: contenente i casi in cui l’incriminazione è rimessa alla discrezionalità del legislatore, il quale potrà scegliere se punire o meno quelle condotte, come ad esempio lo spionaggio informatico;
+            Lista facoltativa: contenente i casi in cui l’incriminazione è rimessa alla discrezionalità del legislatore, il quale potrà scegliere se punire o meno quelle condotte, come ad esempio lo spionaggio informatico.
         </li>
         </ul>
       </div>
   
       
   
-      <hr class="uk-divider-icon" />
+      <div align="left" class="container">
       <p class="text">
         È stato il Comitato dei Ministri degli Stati membri dell’OCSE(Organizzazione per la cooperazione e lo sviluppo economico) a raggruppare le condotte delittuose nate a seguito dello sviluppo delle nuove tecnologie nella Raccomandazione n. R.  9 del 1989 e a suddividerle in due liste:
        </p>
-       <div align="left" class="container">
+       
         <ul>
           <li class="text">Propri: in mancanza di un computer il comportamento incriminato non è concepibile. Questo è il caso, ad esempio, dell’accesso abusivo ad un sistema informatico;</li>
           <li class="text">
@@ -50,6 +50,7 @@
           </li>
         </ul>
       </div>
+      <hr class="uk-divider-icon" />
       <h1><strong>Pena</strong></h1>
       <div align="centre" class="container">
         <p class="text">
