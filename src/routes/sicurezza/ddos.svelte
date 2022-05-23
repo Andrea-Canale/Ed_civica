@@ -26,6 +26,7 @@
       imgsrc="/img/ddos.jpg"
     />
     <hr class="uk-divider-icon" />
+    <div align="center" class="container">
     <h1><strong>Il primo attacco DDoS</strong></h1>
     <p class="text">
       La prima dimostrazione di attacco DoS(essendo stata fatta da un pc unico)
@@ -70,7 +71,7 @@
   </div>
   <hr class="uk-divider-icon" />
   <h1><strong>Come eseguire un attacco DDoS</strong></h1>
-  <div align="center" class="container">
+  <div align="center" class="container" uk-lightbox>
     <h5 class="text">
       La guida è a scopo didattico, i creatori non sono responsabili di
       eventuali disagi arrecati ad altri seguendo questa guida.
@@ -97,9 +98,12 @@
     </p>
     <p class="text">In questo caso useremo un server HTTP fatto con Python in single core</p>
     <p class="text">Come possiamo vedere dopo 5 minuti dall'inizio dell'attacco(fatto con 5 PC da 6 core) il server inizierà a restituire errori e dopo poco non risponderà più alle richieste</p>
-    <img src="/img/ddos.jpeg" alt="DDOS riuscito" width="512px"/>
+    <a href="/img/ddos.jpeg">
+      <img src="/img/ddos.jpeg" alt="DDOS riuscito" width="512px"/>
+    </a>
   </div>
   <br />
+</div>
 </section>
 
 <style>

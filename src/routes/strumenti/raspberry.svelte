@@ -27,6 +27,5 @@
       imgsrc="/img/slide/raspberry.png"
     />
   </div>
-  <hr class="uk-divider-icon" />
-  <h1><strong>Installiamo Kali Linux su un Raspberry PI</strong></h1>
+
 </section>

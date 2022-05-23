@@ -35,7 +35,7 @@
     <strong>Catturiamo i pacchetti all'interno di una rete con Wireshark</strong
     >
   </h1>
-  <div align="center" class="container">
+  <div align="center" class="container" uk-lightbox>
     <h5 class="text">
       La guida è a scopo didattico, i creatori non sono responsabili di
       eventuali disagi arrecati ad altri seguendo questa guida.
@@ -78,30 +78,40 @@
     <h1><strong>Eseguiamo l'ARP spoofing</strong></h1>
     <p class="text">
       Scanerizzando la rete con il nostro tool preferito, io personalmente uso
-      nmap e prendiamo l'IP del dispositivo che dobbiamo sniffare
+      nmap, prendiamo l'IP del dispositivo che dobbiamo sniffare
     </p>
     <p class="text">Una volta preso l'IP, apriamo bettercap</p>
     <Bash command="sudo bettercap -G" background="grey" commandcolor="white" />
     <p class="text">Si aprirà bettercap</p>
-    <img src="/img/ettercap.png" alt="ettercap" />
+    <div >
+      <a href="/img/ettercap.png">
+        <img src="/img/ettercap.png" alt="ettercap" />
+      </a>
+    </div>
     <p class="text">Selezioniamo l'interfaccia da dove sniffare e avviamolo</p>
     <p class="text">
       Poi apriamo la lista degli host dalla Host List e avviamo la scansione
       degli host
     </p>
-    <img src="/img/bettercaphost.png" alt="ettercaphost" />
+    <a href="/img/bettercaphost.png">
+      <img src="/img/bettercaphost.png" alt="ettercaphost" />
+    </a>
     <p class="text">
       Selezioniamo l'IP da sniffare nel target 2 e nel target 1 mettiamo l'IP
       del server DHCP, se presente, io sto usando un semplice switch e quindi
       non lo selezionerò. Infine, avviamo l'ARP spoofing
     </p>
-    <img src="/img/bettercaparp.png" alt="bettercapARP" />
+    <a href="/img/bettercaparp.png">
+      <img src="/img/bettercaparp.png" alt="bettercapARP" />
+    </a>
     <p class="text">
       Quando il PC che stiamo sniffando entrerà su un sito non sicuro(HTTP)
       wireshark ed ettercap prenderanno le credenziali e verranno visualizzate
       insieme a tutto il codice HTML e le immagini
     </p>
-    <img src="/img/wiresharkcap.png" alt="wiresharkcap" />
+    <a href="/img/wiresharkcap.png">
+      <img src="/img/wiresharkcap.png" alt="wiresharkcap" />
+    </a>
     <p class="text">
       Possiamo anche usare driftnet per vedere le immagini scaricate
     </p>
@@ -110,7 +120,9 @@
       background="grey"
       commandcolor="white"
     />
-    <img src="/img/slide/driftnet.png" alt="driftnet" />
+    <a href="/img/slide/driftnet.png">
+      <img src="/img/slide/driftnet.png" alt="driftnet" />
+    </a>
   </div>
   <hr />
 </section>

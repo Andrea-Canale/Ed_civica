@@ -95,7 +95,11 @@
       commandcolor="white"
     />
     <!--Immagine di prova, appena arriva un portatile la sostituisco :-) -->
-    <img src="/img/airodump.png" alt="airodump" class="pure-img" />
+    <div uk-lightbox>
+      <a href="/img/airodump.png">
+        <img src="/img/airodump.png" alt="airodump" class="pure-img" />
+      </a>
+    </div>
     <p class="text">
       Come possiamo vedere qui abbiamo tutte le informazioni delle nostre reti
       Wi-Fi come il BSSID, la potenza, l'SSID e altri parametri, in basso ci
