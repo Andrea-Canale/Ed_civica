@@ -83,7 +83,7 @@
     <p class="text">Una volta preso l'IP, apriamo bettercap</p>
     <Bash command="sudo bettercap -G" background="grey" commandcolor="white" />
     <p class="text">Si aprirà bettercap</p>
-    <div >
+    <div>
       <a href="/img/ettercap.png">
         <img src="/img/ettercap.png" alt="ettercap" />
       </a>

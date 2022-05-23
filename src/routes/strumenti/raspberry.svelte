@@ -27,5 +27,4 @@
       imgsrc="/img/slide/raspberry.png"
     />
   </div>
-
 </section>
