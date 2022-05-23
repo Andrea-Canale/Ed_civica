@@ -64,7 +64,7 @@
           <div class="text">Schema dello sniffing</div>
         </div>
       </a>
-      <a href="/sicurezza/DDOS">
+      <a href="/sicurezza/ddos">
         <div class="mySlides fade">
           <a class="prev" onclick="plusSlides(-1)">❮</a>
           <img src="/img/slide/ddos.jpg" />
