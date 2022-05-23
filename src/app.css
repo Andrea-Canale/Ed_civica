@@ -15,16 +15,19 @@ h5 {
   color: white;
 }
 a {
-  color: white;
+  color: red;
   text-decoration: none;
 }
-a, a:hover, a:focus, a:active {
+a,
+a:hover,
+a:focus,
+a:active {
   text-decoration: none;
   color: inherit;
 }
-strong{
-  color:white;
+strong {
+  color: white;
 }
-.text{
-  color:white;
+.text {
+  color: white;
 }
