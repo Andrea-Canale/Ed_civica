@@ -638,67 +638,68 @@
   <link rel="stylesheet" href="/css/nav.css" />
 </svelte:head>
 <nav>
-<div align="center">
-<div class="topnav" id="myTopnav" align="center">
-  <a href="/" class="activenav">
-    <img src="/img/logo.png" width="32px"/>
-  </a>
-  <div class="dropdown" align="center">
-    <button class="dropbtn"
-      >Pericoli della rete
-      <i class="fa fa-caret-down" />
-    </button>
-    <div class="dropdown-content">
-      <a href="/pericoli/fake-news">Fake News</a>
+  <div align="center">
+    <div class="topnav" id="myTopnav" align="center">
+      <a href="/" class="activenav">
+        <img src="/img/logo.png" width="32px" />
+      </a>
+      <div class="dropdown" align="center">
+        <button class="dropbtn"
+          >Pericoli della rete
+          <i class="fa fa-caret-down" />
+        </button>
+        <div class="dropdown-content">
+          <a href="/pericoli/fake-news">Fake News</a>
 
-      <a href="/pericoli/truffe">Truffe Online</a>
-      <a href="/pericoli/furti-ide">Furti d'identità</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn"
-      >Strumenti di un hacker
-      <i class="fa fa-caret-down" />
-    </button>
-    <div class="dropdown-content">
-      <a href="/strumenti/rubber-ducky">Rubber Ducky</a>
+          <a href="/pericoli/truffe">Truffe Online</a>
+          <a href="/pericoli/furti-ide">Furti d'identità</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"
+          >Strumenti di un hacker
+          <i class="fa fa-caret-down" />
+        </button>
+        <div class="dropdown-content">
+          <a href="/strumenti/rubber-ducky">Rubber Ducky</a>
 
-      <a href="/strumenti/jammer">Jammer</a>
-      <a href="/strumenti/raspberry">Raspberry</a>
-      <a href="/strumenti/tools">Tools</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn"
-      >Crittografia
-      <i class="fa fa-caret-down" />
-    </button>
-    <div class="dropdown-content">
-      <a href="/crittografia/sniffing">Sniffing</a>
-    </div>
-  </div>
-  <div class="dropdown">
-    <button class="dropbtn"
-      >Sicurezza
-      <i class="fa fa-caret-down" />
-    </button>
-    <div class="dropdown-content">
-      <a href="/sicurezza/val-rischi">Valutazione dei rischi</a>
+          <a href="/strumenti/jammer">Jammer</a>
+          <a href="/strumenti/raspberry">Raspberry</a>
+          <a href="/strumenti/tools">Tools</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"
+          >Crittografia
+          <i class="fa fa-caret-down" />
+        </button>
+        <div class="dropdown-content">
+          <a href="/crittografia/sniffing">Sniffing</a>
+          <a href="/crittografia/crittografia">Crittografia</a>
+        </div>
+      </div>
+      <div class="dropdown">
+        <button class="dropbtn"
+          >Sicurezza
+          <i class="fa fa-caret-down" />
+        </button>
+        <div class="dropdown-content">
+          <a href="/sicurezza/val-rischi">Valutazione dei rischi</a>
 
-      <a href="/sicurezza/reati">Reati Informatici</a>
-      <a href="/sicurezza/accessi-abusivi"
-        >Accesso abusivo ad un sistema informatico</a
+          <a href="/sicurezza/reati">Reati Informatici</a>
+          <a href="/sicurezza/accessi-abusivi"
+            >Accesso abusivo ad un sistema informatico</a
+          >
+
+          <a href="/sicurezza/proteggersi">Come proteggersi in rete</a>
+          <a href="/sicurezza/ddos">DDOS</a>
+        </div>
+      </div>
+      <a href="#0" style="font-size:15px;" class="icon" on:click={tendina}
+        >&#9776;</a
       >
-
-      <a href="/sicurezza/proteggersi">Come proteggersi in rete</a>
-      <a href="/sicurezza/ddos">DDOS</a>
     </div>
   </div>
-  <a href="#0" style="font-size:15px;" class="icon" on:click={tendina}
-    >&#9776;</a
-  >
-</div>
-</div>
 </nav>
 <Particles
   id="tsparticles"
@@ -711,11 +712,11 @@
 </main>
 
 <style>
-@import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-@font-face {
-  font-family: Hacked;
-  src: url(https://hackedfont.com/HACKED.ttf);
-}
+  @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
+  @font-face {
+    font-family: Hacked;
+    src: url(https://hackedfont.com/HACKED.ttf);
+  }
   .navresponse {
     max-width: 2000px;
   }
@@ -735,13 +736,16 @@
     z-index: -1;
     background-color: black;
   }
-  a, a:hover, a:focus, a:active {
-      text-decoration: none;
-      color: inherit;
- }
- nav { 
+  a,
+  a:hover,
+  a:focus,
+  a:active {
+    text-decoration: none;
+    color: inherit;
+  }
+  nav {
     text-align: center;
     margin: 0 auto;
-    display: table; 
-   }
+    display: table;
+  }
 </style>
