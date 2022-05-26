@@ -121,5 +121,5 @@
       <img src="/img/slide/driftnet.png" alt="driftnet" />
     </a>
   </div>
-  <hr />
+  <h1>&nbsp;</h1>
 </section>

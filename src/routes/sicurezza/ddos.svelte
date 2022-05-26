@@ -38,21 +38,21 @@
       </p>
       <hr class="uk-divider-icon" />
       <h1>I tipi di attacco DDoS</h1>
-      <h3>Sys-Flood</h3>
+      <h3><b>Sys-Flood</b></h3>
       <p class="text">
         Il Syn-Flooding è stato il primo degli attacchi DoS e consiste
         nell'aprire continuamente nuove sessioni HTTP, in questo modo il server
         che viene attaccato deve allocare memoria per ogni nuova sessione,
         quando la memoria del server verrà saturata, il server andrà in crash.
       </p>
-      <h3>Attacco Smurf</h3>
+      <h3><b>Attacco Smurf</b></h3>
       <p class="text">
         Questo attacco viene eseguito all'interno di una rete locale per mandare
         in crash gli host di una rete locale, in questo scenario se la rete è
         mal configurata, i pacchetti verranno moltiplicati rendendo l'attacco
         più veloce.
       </p>
-      <h3>R-U-Dead-Yet? (RUDY)</h3>
+      <h3><b>R-U-Dead-Yet? (RUDY)</b></h3>
       <p class="text">
         Un attacc RUDY/Slowloris mantiene le sessioni interrotte utilizzando dei
         POST senza fine e inviando degli header con un contenuto grande.

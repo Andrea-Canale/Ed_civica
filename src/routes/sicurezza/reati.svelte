@@ -26,7 +26,7 @@
     <p class="text">
       La legge 547 prevede cinque categorie principali di reati informatici:
     </p>
-    <ul>
+    <ul class="text">
       <li>Frode informatica</li>
       <li>Accesso abusivo a un sistema informatico</li>
       <li>Detenzione e diffusione abusiva di codici di accesso a sistemi</li>
@@ -112,11 +112,8 @@
       </p>
     </div>
     <hr class="uk-divider-icon" />
-    <h1>
-      <strong
-        >Intercettazione, impedimento o interruzione illecita di comunicazioni
-        informatiche o telematiche</strong
-      >
+    <h1>Intercettazione, impedimento o interruzione illecita di comunicazioni
+        informatiche o telematiche
     </h1>
     <div align="center" class="container">
       <p class="text">
@@ -149,7 +146,7 @@
         Per questo motivo, è importante informarsi sui pericoli informatici e
         utilizzare tutti gli strumenti di protezione disponibili:
       </p>
-      <ul>
+      <ul class="text">
         <li>Verifica l’autenticità di messaggi e siti web</li>
         <li>Non divulgare dati sensibili e credenziali di accesso</li>
         <li>Crea password sicure e aggiornale periodicamente</li>

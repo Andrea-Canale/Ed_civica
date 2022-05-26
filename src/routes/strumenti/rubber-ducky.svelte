@@ -31,7 +31,7 @@
   </h6>
   <p>
     Cloniamo la seguente repository : <a
-      href="https://github.com/Andrea-Canale/Exploit-Ed-Civica"
+      href="javascript:void(window.open('https://github.com/Andrea-Canale/Exploit-Ed-Civica'))"
       >https://github.com/Andrea-Canale/Exploit-Ed-Civica</a
     >
   </p>
@@ -51,10 +51,10 @@
   </p>
   <a
     style="color:white;"
-    href="https://github.com/coopermaa/USBKeyboard/raw/master/firmware/Arduino-keyboard-0.3.hex"
+    href="javascript:void(window.open('https://github.com/coopermaa/USBKeyboard/raw/master/firmware/Arduino-keyboard-0.3.hex'))"
     >https://github.com/coopermaa/USBKeyboard/raw/master/firmware/Arduino-keyboard-0.3.hex</a
   >
-  <hr />
+  <h1></h1>
   <div align="center">
     <Bash
       command="sudo dfu-programmer atmega16u2 erase --force"
@@ -89,8 +89,8 @@
   </p>
   <a
     style="color:white;"
-    href="https://raw.githubusercontent.com/coopermaa/USBKeyboard/master/firmware/Arduino-usbserial-uno.hex"
+    href="javascript:void(window.open('https://raw.githubusercontent.com/coopermaa/USBKeyboard/master/firmware/Arduino-usbserial-uno.hex'))"
     >https://raw.githubusercontent.com/coopermaa/USBKeyboard/master/firmware/Arduino-usbserial-uno.hex</a
   >
-  <hr />
+  <h1>&nbsp;</h1>
 </section>

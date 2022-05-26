@@ -38,7 +38,7 @@
     </h5>
     <p class="text">
       Per questa guida ci servirà una distribuzione di Linux o BSD o Mac OS e
-      una scheda di rete compatibile(Trovate alcuni dei modelli compatibile <a
+      una scheda di rete compatibile (trovate alcuni dei modelli compatibile <a
         href="javascript:window.open('https://www.kali.org/docs/nethunter/wireless-cards/')"
         >qui</a
       >)

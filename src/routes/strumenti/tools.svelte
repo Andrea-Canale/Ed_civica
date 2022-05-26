@@ -27,7 +27,8 @@
   <div class="container" uk-lightbox>
     <h1>Tool per attacchi a reti locali</h1>
     <Tool
-      title="NETDISCOVER"
+    title=""
+      subtitle="NETDISCOVER"
       text="Netdiscorver è un tool che permette di rilevare tutti gli host presenti in una rete, 
   compresi i MAC address e di conseguenza i vendor e gli indirizzi IP di questi host.Netdiscover per trovare gli host 
   cattura le richieste ARP dei dispositivi, quindi funziona senza mandare alcun pacchetto."
@@ -65,7 +66,7 @@
     <hr class="uk-divider-icon" />
     <h1>Tool per attacchi a siti</h1>
     <Tool
-      title="NIKTO"
+      subtitle="NIKTO"
       text="Nikto è un tool che permette di scansionare un host(solitamente un sito) per trovare vulnerabilità e ottenere
    informazioni sull'host scansionato come il web server usato, il sistema operativo..."
       img=""
@@ -91,7 +92,7 @@
     <hr class="uk-divider-icon" />
     <h1>Tool per attacchi generici</h1>
     <Tool
-      title="Metasploit"
+      subtitle="Metasploit"
       text="Metasploit è un framework che ci permette di effettuare exploit su target diversi, come router, interfacce di autenticazione... Gli exploit sono scritti in un linguaggio compatibile a Metasploit simile a Python"
       img="/img/metasploit.png"
       imgsub=""
@@ -108,10 +109,9 @@
       text="  SWAKS è un tool per verificare la sicurezza di un server SMTP(server mail), possiamo verificare se 
   senza avere le credenziali di accesso possiamo inviare mail da un mail server, in tal caso il nostro server non sarà sicuro
   e sarebbe meglio cambiare le impostazioni di sicurezza"
-      title="SWAKS"
+      subtitle="SWAKS"
       img=""
       imgsub=""
     />
-    <hr class="uk-divider-icon" />
   </div>
 </section>

@@ -137,35 +137,35 @@
       </p>
       <ul>
         <li class="text">
-          Blind. Gli analisti simulano le azioni di un agente di minaccia
+          <b>Blind.</b> Gli analisti simulano le azioni di un agente di minaccia
           all’oscuro dei dettagli implementativi del contesto oggetto di
           analisi. Il target è a conoscenza di tutti i dettagli della verifica.
         </li>
         <li class="text">
-          Double Blind. Gli analisti simulano le azioni di un agente di minaccia
+          <b>Double Blind.</b> Gli analisti simulano le azioni di un agente di minaccia
           all’oscuro dei dettagli implementativi del contesto oggetto di
           analisi. Il target non è informato sul perimetro di test.
         </li>
         <li class="text">
-          Gray Box. Gli analisti simulano le azioni di un agente di minaccia in
+          <b>Gray Box.</b> Gli analisti simulano le azioni di un agente di minaccia in
           possesso di informazioni limitate sulle componenti e sulle difese
           presenti nel contesto oggetto di analisi. Il target è a conoscenza di
           tutti i dettagli della verifica.
         </li>
         <li class="text">
-          Double Gray Box. Gli analisti simulano le azioni di un agente di
+          <b>Double Gray Box.</b> Gli analisti simulano le azioni di un agente di
           minaccia in possesso di informazioni limitate sulle componenti e sulle
           difese presenti nel contesto oggetto di analisi. Il target è a
           conoscenza del perimetro di test, ma non di tutti i dettagli della
           verifica.
         </li>
         <li class="text">
-          Tandem. Gli analisti e il target sono entrambi in possesso di
+          <b>Tandem.</b> Gli analisti e il target sono entrambi in possesso di
           informazioni di dettaglio relative al contesto oggetto di analisi e
           alla verifica di sicurezza.
         </li>
         <li class="text">
-          Reversal. Gli analisti sono in possesso di informazioni di dettaglio
+          <b>Reversal.</b> Gli analisti sono in possesso di informazioni di dettaglio
           relative al contesto oggetto di analisi. Il target non è informato sul
           perimetro di test.
         </li>

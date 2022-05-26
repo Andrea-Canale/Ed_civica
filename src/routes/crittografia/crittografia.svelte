@@ -73,7 +73,7 @@
       quello di <a href="/crittografia/sniffing" title="apri crittografia"
         >sniffing</a
       >
-      e spoofing Il primo permette di “spiare” il contenuto dei pacchetti dati in
+      e <b>spoofing.</b> Il primo permette di “spiare” il contenuto dei pacchetti dati in
       transito alla ricerca di informazioni utili; il secondo, mirato agli indirizzi
       IP, si concretizza nella generazione di pacchetti IP contenenti, come indirizzo
       IP del mittente, un indirizzo falso che non corrisponde a quello realmente
@@ -97,7 +97,7 @@
         </p>
         <ul>
           <li class="text">
-            Chiave simmetrica , noto anche come algoritmo a chiave segreta, dove
+            <b>Chiave simmetrica,</b> noto anche come algoritmo a chiave segreta, dove
             i messaggi sono decodificabili solo dalla persona che conosce la
             password. Questi schemi crittografici non vengono di norma
             utilizzati sulla rete Internet perché la password non può ovviamente
@@ -108,7 +108,7 @@
             con utenti remoti.
           </li>
           <li class="text">
-            Chiave asimmetrica : questo metodo utilizza due chiavi diverse,
+          <b>Chiave asimmetrica :</b> questo metodo utilizza due chiavi diverse,
             pubblica (che può essere condivisa con chiunque) e privata (che deve
             rimanere segreta). Per cifrare un testo, quindi, con la crittografia
             asimmetrica basta usare la chiave pubblica del destinatario del
@@ -118,8 +118,8 @@
         </ul>
       </div>
       <p class="text">
-        Infine, esiste un terzo tipo di crittografia, cosiddetta <strong
-          >end-to-end</strong
+        Infine, esiste un terzo tipo di crittografia, cosiddetta <b
+          >end-to-end</b
         > (usata principalmente da WhatsApp, Messenger o Telegram), che permette
         di proteggere la privacy e le comunicazioni usando doppio paio di chiavi
         crittografiche necessarie per cifrare e decifrare i messaggi in viaggio da
