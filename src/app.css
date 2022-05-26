@@ -6,13 +6,10 @@
 p {
   color: white;
 }
-h1 {
+h1,h2,h3,h4,h5 {
   color: white;
   font-family: Hacked;
   font-size: 64px;
-}
-h5 {
-  color: white;
 }
 a {
   color: red;

@@ -713,10 +713,6 @@
 
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
-  @font-face {
-    font-family: Hacked;
-    src: url(https://hackedfont.com/HACKED.ttf);
-  }
   .navresponse {
     max-width: 2000px;
   }
@@ -735,13 +731,6 @@
     left: 0;
     z-index: -1;
     background-color: black;
-  }
-  a,
-  a:hover,
-  a:focus,
-  a:active {
-    text-decoration: none;
-    color: inherit;
   }
   nav {
     text-align: center;
