@@ -12,9 +12,10 @@ h3,
 h4,
 h5,
 strong {
-  color: white;
-  font-family: Hacked;
-  font-size: 64px;
+  background-color: white !important;
+  color: white !important;
+  font-family: Hacked !important;
+  font-size: 64px !important;
 }
 a {
   color: red;
