@@ -68,8 +68,7 @@
 
     <hr class="uk-divider-icon" />
     <h1>
-      Ma andiamo ad esaminare in che cosa consiste il furto di identità
-      digitale
+      Ma andiamo ad esaminare in che cosa consiste il furto di identità digitale
     </h1>
     <div align="left" class="container">
       <p class="text">

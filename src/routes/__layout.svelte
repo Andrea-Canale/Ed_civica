@@ -737,7 +737,7 @@
     margin: 0 auto;
     display: table;
   }
-  h1{
-    color:white
+  h1 {
+    color: white;
   }
 </style>

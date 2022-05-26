@@ -20,7 +20,7 @@
       subtitle="Cos'è una rubber ducky?"
       text="Una Rubber Ducky è una normale chiavetta che però viene riconosciuta come una tastiera e un mouse. Può eseguire codice malevolo,
       all'interno del PC senza che l'utente se ne accorga. Tuttavia su alcuni sistemi operativi non funziona correttamente, solitamente infatti si usa in ambiente Windows"
-      imgcomment="Una rubber ducky della HAL5"
+      imgcomment="Una rubber ducky della HAK5"
       imgsrc="/img/slide/rubber_ducky.png"
     />
   </div>
@@ -54,7 +54,7 @@
     href="javascript:void(window.open('https://github.com/coopermaa/USBKeyboard/raw/master/firmware/Arduino-keyboard-0.3.hex'))"
     >https://github.com/coopermaa/USBKeyboard/raw/master/firmware/Arduino-keyboard-0.3.hex</a
   >
-  <h1></h1>
+  <h1 />
   <div align="center">
     <Bash
       command="sudo dfu-programmer atmega16u2 erase --force"

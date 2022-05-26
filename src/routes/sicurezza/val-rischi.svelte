@@ -138,31 +138,30 @@
       <ul>
         <li class="text">
           <b>Blind.</b> Gli analisti simulano le azioni di un agente di minaccia
-          all’oscuro dei dettagli implementativi del contesto oggetto di
-          analisi. Il target è a conoscenza di tutti i dettagli della verifica.
+          all’oscuro dei dettagli implementativi del contesto oggetto di analisi.
+          Il target è a conoscenza di tutti i dettagli della verifica.
         </li>
         <li class="text">
           <b>Double Blind.</b> Gli analisti simulano le azioni di un agente di minaccia
-          all’oscuro dei dettagli implementativi del contesto oggetto di
-          analisi. Il target non è informato sul perimetro di test.
+          all’oscuro dei dettagli implementativi del contesto oggetto di analisi.
+          Il target non è informato sul perimetro di test.
         </li>
         <li class="text">
-          <b>Gray Box.</b> Gli analisti simulano le azioni di un agente di minaccia in
-          possesso di informazioni limitate sulle componenti e sulle difese
-          presenti nel contesto oggetto di analisi. Il target è a conoscenza di
-          tutti i dettagli della verifica.
+          <b>Gray Box.</b> Gli analisti simulano le azioni di un agente di minaccia
+          in possesso di informazioni limitate sulle componenti e sulle difese presenti
+          nel contesto oggetto di analisi. Il target è a conoscenza di tutti i dettagli
+          della verifica.
         </li>
         <li class="text">
           <b>Double Gray Box.</b> Gli analisti simulano le azioni di un agente di
           minaccia in possesso di informazioni limitate sulle componenti e sulle
-          difese presenti nel contesto oggetto di analisi. Il target è a
-          conoscenza del perimetro di test, ma non di tutti i dettagli della
-          verifica.
+          difese presenti nel contesto oggetto di analisi. Il target è a conoscenza
+          del perimetro di test, ma non di tutti i dettagli della verifica.
         </li>
         <li class="text">
-          <b>Tandem.</b> Gli analisti e il target sono entrambi in possesso di
-          informazioni di dettaglio relative al contesto oggetto di analisi e
-          alla verifica di sicurezza.
+          <b>Tandem.</b> Gli analisti e il target sono entrambi in possesso di informazioni
+          di dettaglio relative al contesto oggetto di analisi e alla verifica di
+          sicurezza.
         </li>
         <li class="text">
           <b>Reversal.</b> Gli analisti sono in possesso di informazioni di dettaglio

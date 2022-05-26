@@ -53,27 +53,26 @@
     <div align="left" class="container">
       <ul>
         <li class="text">
-          <b>Il controllo delle fonti:</b> Da dove provengono le informazioni? Chi ha
-          scritto la notizia e pubblicato il contenuto? La notizia è neutrale o
-          qualcuno vuole diffondere un suo messaggio? In quale formato (news,
-          reti sociali, YouTube, servizi di messaggeria) è stata pubblicata
-          questa notizia?
+          <b>Il controllo delle fonti:</b> Da dove provengono le informazioni? Chi
+          ha scritto la notizia e pubblicato il contenuto? La notizia è neutrale
+          o qualcuno vuole diffondere un suo messaggio? In quale formato (news, reti
+          sociali, YouTube, servizi di messaggeria) è stata pubblicata questa notizia?
         </li>
         <li class="text">
-          <b>La verifica dei fatti:</b> Questa notizia è attuale? Questo argomento è
-          riportato anche su altri canali noti e seri? Cosa si legge lì?
+          <b>La verifica dei fatti:</b> Questa notizia è attuale? Questo argomento
+          è riportato anche su altri canali noti e seri? Cosa si legge lì?
         </li>
         <li class="text">
-          <b>Il controllo del gruppo target:</b> A chi è rivolta questa notizia? Se
-          questo messaggio è pubblicato sul web, quanta altra pubblicità è
-          visibile su questa pagina? Il titolo e il layout sembrano strani, ci
-          sono molti errori di ortografia o punti esclamativi?
+          <b>Il controllo del gruppo target:</b> A chi è rivolta questa notizia?
+          Se questo messaggio è pubblicato sul web, quanta altra pubblicità è visibile
+          su questa pagina? Il titolo e il layout sembrano strani, ci sono molti
+          errori di ortografia o punti esclamativi?
         </li>
         <li class="text">
-          <b>Il controllo dell’URL:</b> Che aspetto ha l’indirizzo URL (www.)? Le fake
-          news appaiono spesso su pagine che sembrano molto simili a un sito
-          serio. Anche l’indirizzo web può confondere perché molto simile a
-          quello del sito originale, ad esempio www.sfr.it invece di www.srf.it
+          <b>Il controllo dell’URL:</b> Che aspetto ha l’indirizzo URL (www.)? Le
+          fake news appaiono spesso su pagine che sembrano molto simili a un sito
+          serio. Anche l’indirizzo web può confondere perché molto simile a quello
+          del sito originale, ad esempio www.sfr.it invece di www.srf.it
         </li>
       </ul>
     </div>

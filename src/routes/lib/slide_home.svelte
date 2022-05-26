@@ -1,6 +1,7 @@
 <script lang="ts">
   import "./slide.css";
 </script>
+
 <body>
   <div align="center">
     <div class="slideshow-container" align="center">
@@ -92,7 +93,7 @@
     showSlides(slideIndex);
 
     function plusSlides() {
-      console.log("OK")
+      console.log("OK");
       showSlides((slideIndex += 1));
     }
 

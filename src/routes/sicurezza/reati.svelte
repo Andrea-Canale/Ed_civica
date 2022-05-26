@@ -112,8 +112,9 @@
       </p>
     </div>
     <hr class="uk-divider-icon" />
-    <h1>Intercettazione, impedimento o interruzione illecita di comunicazioni
-        informatiche o telematiche
+    <h1>
+      Intercettazione, impedimento o interruzione illecita di comunicazioni
+      informatiche o telematiche
     </h1>
     <div align="center" class="container">
       <p class="text">

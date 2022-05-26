@@ -11,8 +11,12 @@ h1 {
   font-family: Hacked !important;
   font-size: 46px !important;
 }
-h2,h3,h4,h5,h6{
-  color:white;
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: white;
 }
 a {
   color: red !important;

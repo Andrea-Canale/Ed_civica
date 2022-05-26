@@ -73,11 +73,11 @@
       quello di <a href="/crittografia/sniffing" title="apri crittografia"
         >sniffing</a
       >
-      e <b>spoofing.</b> Il primo permette di “spiare” il contenuto dei pacchetti dati in
-      transito alla ricerca di informazioni utili; il secondo, mirato agli indirizzi
-      IP, si concretizza nella generazione di pacchetti IP contenenti, come indirizzo
-      IP del mittente, un indirizzo falso che non corrisponde a quello realmente
-      usato dall’aggressore.
+      e <b>spoofing.</b> Il primo permette di “spiare” il contenuto dei pacchetti
+      dati in transito alla ricerca di informazioni utili; il secondo, mirato agli
+      indirizzi IP, si concretizza nella generazione di pacchetti IP contenenti,
+      come indirizzo IP del mittente, un indirizzo falso che non corrisponde a quello
+      realmente usato dall’aggressore.
     </p>
 
     <p class="text">
@@ -97,23 +97,22 @@
         </p>
         <ul>
           <li class="text">
-            <b>Chiave simmetrica,</b> noto anche come algoritmo a chiave segreta, dove
-            i messaggi sono decodificabili solo dalla persona che conosce la
-            password. Questi schemi crittografici non vengono di norma
-            utilizzati sulla rete Internet perché la password non può ovviamente
-            viaggiare sullo stesso canale (altrimenti potrebbe diventare preda
-            di utenti malintenzionati interessati alla decodifica del
-            messaggio). La password può essere al limite condivisa usando altri
-            canali ma non è certo l’approccio migliore per scambiarsi messaggi
-            con utenti remoti.
+            <b>Chiave simmetrica,</b> noto anche come algoritmo a chiave segreta,
+            dove i messaggi sono decodificabili solo dalla persona che conosce la
+            password. Questi schemi crittografici non vengono di norma utilizzati
+            sulla rete Internet perché la password non può ovviamente viaggiare sullo
+            stesso canale (altrimenti potrebbe diventare preda di utenti malintenzionati
+            interessati alla decodifica del messaggio). La password può essere al
+            limite condivisa usando altri canali ma non è certo l’approccio migliore
+            per scambiarsi messaggi con utenti remoti.
           </li>
           <li class="text">
-          <b>Chiave asimmetrica :</b> questo metodo utilizza due chiavi diverse,
+            <b>Chiave asimmetrica :</b> questo metodo utilizza due chiavi diverse,
             pubblica (che può essere condivisa con chiunque) e privata (che deve
             rimanere segreta). Per cifrare un testo, quindi, con la crittografia
-            asimmetrica basta usare la chiave pubblica del destinatario del
-            messaggio mentre quest’ultimo per la decodifica dovrà essere
-            necessariamente in possesso della sua chiave privata.
+            asimmetrica basta usare la chiave pubblica del destinatario del messaggio
+            mentre quest’ultimo per la decodifica dovrà essere necessariamente in
+            possesso della sua chiave privata.
           </li>
         </ul>
       </div>

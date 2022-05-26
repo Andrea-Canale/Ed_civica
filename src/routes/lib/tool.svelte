@@ -1,12 +1,16 @@
 <script lang="ts">
-  export let text: string, img: string, imgsub: string, title: string, subtitle: string;
+  export let text: string,
+    img: string,
+    imgsub: string,
+    title: string,
+    subtitle: string;
 </script>
 
 {#if title != undefined}
-<h1>{title}</h1>
+  <h1>{title}</h1>
 {/if}
 {#if subtitle != undefined}
-<h2><b>{subtitle}</b></h2>
+  <h2><b>{subtitle}</b></h2>
 {/if}
 <p>
   {text}

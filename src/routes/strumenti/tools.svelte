@@ -27,7 +27,7 @@
   <div class="container" uk-lightbox>
     <h1>Tool per attacchi a reti locali</h1>
     <Tool
-    title=""
+      title=""
       subtitle="NETDISCOVER"
       text="Netdiscorver è un tool che permette di rilevare tutti gli host presenti in una rete, 
   compresi i MAC address e di conseguenza i vendor e gli indirizzi IP di questi host.Netdiscover per trovare gli host 
