@@ -72,7 +72,7 @@
         pratica per evitare una possibile truffa online e riconoscerla.
       </p>
       <div align="left" class="container">
-        <p>Tra questi si consiglia di:</p>
+        <p class="text">Tra questi si consiglia di:</p>
         <ul>
           <li class="text">
             evitare password banali, come quelle contenenti il nostro nome o
