@@ -1,10 +1,6 @@
 <script lang="ts">
   import "./slide.css";
 </script>
-
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-</head>
 <body>
   <div align="center">
     <div class="slideshow-container" align="center">
@@ -95,8 +91,9 @@
     slideIndex = 1;
     showSlides(slideIndex);
 
-    function plusSlides(n) {
-      showSlides((slideIndex += n));
+    function plusSlides() {
+      console.log("OK")
+      showSlides((slideIndex += 1));
     }
 
     function currentSlide(n) {
@@ -146,6 +143,7 @@
       slides[slideIndex - 1].style.display = "block";
       dots[slideIndex - 1].className += " active";
     }
+    setTimeout(plusSlides, 5000);
   </script>
 </body>
 
