@@ -65,7 +65,7 @@
       </ul>
     </div>
     <hr class="uk-divider-icon" />
-    <h1><strong>Pena</strong></h1>
+    <h1> Pena </h1>
     <div align="centre" class="container">
       <p class="text">
         Il reato può essere commesso da "chiunque" nell'ipotesi di cui al primo

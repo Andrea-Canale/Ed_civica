@@ -52,7 +52,7 @@
       dipendono infatti dalla quantità e dalla sensibilità dei dati trattati.
     </p>
     <hr class="uk-divider-icon" />
-    <h1><strong>Come si svolge questa valutazione?</strong></h1>
+    <h1> Come si svolge questa valutazione? </h1>
     <div align="centre" class="container">
       <p class="text">
         La valutazione del rischio informatico è un’analisi che serve ad avere
@@ -70,7 +70,7 @@
       </p>
     </div>
     <hr class="uk-divider-icon" />
-    <h1><strong>Il ruolo del Pen Tester</strong></h1>
+    <h1> Il ruolo del Pen Tester </h1>
     <div align="center" class="container">
       <p class="text">
         Il penetration tester ha il compito di “attaccare” un target aziendale
@@ -98,7 +98,7 @@
       <br />
     </div>
     <hr class="uk-divider-icon" />
-    <h1><strong>Chi e' il penetration tester</strong></h1>
+    <h1> Chi e' il penetration tester </h1>
     <div align="center" class="container">
       <p class="text">
         Il penetration tester può essere descritto come un hacker incaricato di
@@ -137,36 +137,36 @@
       </p>
       <ul>
         <li class="text">
-          <strong>Blind. </strong>Gli analisti simulano le azioni di un agente
+           Blind.  Gli analisti simulano le azioni di un agente
           di minaccia all’oscuro dei dettagli implementativi del contesto
           oggetto di analisi. Il target è a conoscenza di tutti i dettagli della
           verifica.
         </li>
         <li class="text">
-          <strong>Double Blind. </strong>Gli analisti simulano le azioni di un
+           Double Blind.  Gli analisti simulano le azioni di un
           agente di minaccia all’oscuro dei dettagli implementativi del contesto
           oggetto di analisi. Il target non è informato sul perimetro di test.
         </li>
         <li class="text">
-          <strong>Gray Box. </strong>Gli analisti simulano le azioni di un
+           Gray Box.  Gli analisti simulano le azioni di un
           agente di minaccia in possesso di informazioni limitate sulle
           componenti e sulle difese presenti nel contesto oggetto di analisi. Il
           target è a conoscenza di tutti i dettagli della verifica.
         </li>
         <li class="text">
-          <strong>Double Gray Box. </strong>Gli analisti simulano le azioni di
+           Double Gray Box.  Gli analisti simulano le azioni di
           un agente di minaccia in possesso di informazioni limitate sulle
           componenti e sulle difese presenti nel contesto oggetto di analisi. Il
           target è a conoscenza del perimetro di test, ma non di tutti i
           dettagli della verifica.
         </li>
         <li class="text">
-          <strong>Tandem. </strong>Gli analisti e il target sono entrambi in
+           Tandem.  Gli analisti e il target sono entrambi in
           possesso di informazioni di dettaglio relative al contesto oggetto di
           analisi e alla verifica di sicurezza.
         </li>
         <li class="text">
-          <strong>Reversal. </strong>Gli analisti sono in possesso di
+           Reversal.  Gli analisti sono in possesso di
           informazioni di dettaglio relative al contesto oggetto di analisi. Il
           target non è informato sul perimetro di test.
         </li>
@@ -180,7 +180,7 @@
     </p>
 
     <hr class="uk-divider-icon" />
-    <h1><strong>Le competenza necessarie</strong></h1>
+    <h1> Le competenza necessarie </h1>
     <div align="center" class="container">
       <p class="text">
         Il penetration tester può essere descritto come un hacker incaricato di

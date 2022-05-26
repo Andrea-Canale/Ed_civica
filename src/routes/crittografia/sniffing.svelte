@@ -32,7 +32,7 @@
   </div>
   <hr class="uk-divider-icon" />
   <h1>
-    <strong>Catturiamo i pacchetti all'interno di una rete con Wireshark</strong
+     Catturiamo i pacchetti all'interno di una rete con Wireshark</strong
     >
   </h1>
   <div align="center" class="container" uk-lightbox>
@@ -75,7 +75,7 @@
       A questo punto tutti i tool che dobbiamo usare sono pronti
     </p>
     <hr class="uk-divider-icon" />
-    <h1><strong>Eseguiamo l'ARP spoofing</strong></h1>
+    <h1> Eseguiamo l'ARP spoofing </h1>
     <p class="text">
       Scanerizzando la rete con il nostro tool preferito, io personalmente uso
       nmap, prendiamo l'IP del dispositivo che dobbiamo sniffare

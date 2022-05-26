@@ -56,7 +56,7 @@
     </p>
 
     <hr class="uk-divider-icon" />
-    <h1><strong>Come difendersi dalle truffe online?</strong></h1>
+    <h1> Come difendersi dalle truffe online? </h1>
     <div align="centre" class="container">
       <p class="text">
         Purtroppo al giorno d’oggi incappare in una truffa online è davvero
@@ -106,7 +106,7 @@
     </div>
 
     <hr class="uk-divider-icon" />
-    <h1><strong>Come tutelarsi dai siti truffa</strong></h1>
+    <h1> Come tutelarsi dai siti truffa </h1>
     <div align="center" class="container">
       <p class="text">
         Chi non è particolarmente avvezzo all’utilizzo del web e nel fare
