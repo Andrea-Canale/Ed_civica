@@ -28,10 +28,7 @@
   </div>
   <hr class="uk-divider-icon" />
   <h1>
-    <strong
-      >In che modo la valutazione del rischio informatico è necessaria per la
-      compliance al GDPR?</strong
-    >
+    In che modo la valutazione del rischio informatico e' necessaria?
   </h1>
   <div align="center" class="container">
     <p class="text">
