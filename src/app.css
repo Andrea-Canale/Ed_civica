@@ -4,20 +4,18 @@
   src: url(https://hackedfont.com/HACKED.ttf);
 }
 p {
-  color: white;
+  color: white !important;
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-strong {
+h1 {
   color: white !important;
   font-family: Hacked !important;
-  font-size: 64px !important;
+  font-size: 52px !important;
+}
+h2,h3,h4,h5,h6{
+  color:white;
 }
 a {
-  color: red;
+  color: red !important;
   text-decoration: none;
 }
 a,
