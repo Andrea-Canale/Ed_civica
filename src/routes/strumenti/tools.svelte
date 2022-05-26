@@ -30,7 +30,7 @@
   compresi i MAC address e di conseguenza i vendor e gli indirizzi IP di questi host.Netdiscover per trovare gli host 
   cattura le richieste ARP dei dispositivi, quindi funziona senza mandare alcun pacchetto." img="/img/netdiscover.png" imgsub=""></Tool>
   <hr class="uk-divider-icon" />
-  <Tool title="NMAP" text="    Nmap è un tool che permette di scansionare le porte aperte,chiuse e filtrate di un host e quindi di trovare 
+  <Tool title="NMAP" text="Nmap è un tool che permette di scansionare le porte aperte,chiuse e filtrate di un host e quindi di trovare 
   eventuali vulnerabilità in una configurazione di un host, in caso di porte aperte non necessarie." img="/img/nmap.png" imgsub=""></Tool>
   <h6 style="color:white;">Un classico router che non ha nessun firewall in locale e probabilmente anche all'esterno</h6>
   <hr class="uk-divider-icon" />

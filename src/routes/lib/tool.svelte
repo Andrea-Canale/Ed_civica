@@ -6,6 +6,8 @@
   {text}
 </p>
 <a href={img}>
-  <img src={img}/>
+    {#if img != ""}
+    <img src={img}/>
+    {/if}
   <p>{imgsub}</p>
 </a>
