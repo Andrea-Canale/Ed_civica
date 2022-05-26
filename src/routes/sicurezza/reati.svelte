@@ -39,9 +39,7 @@
   </div>
   <hr class="uk-divider-icon" />
   <div align="center" class="container">
-    <h1>
-        Frode informatica  
-    </h1>
+    <h1>Frode informatica</h1>
     <p class="text">
       La frode informatica viene definita dall’articolo 640 ter del Codice
       Penale come l’alterazione, in qualsiasi modo, del funzionamento di un
@@ -56,9 +54,7 @@
       sul phishing.
     </p>
     <hr class="uk-divider-icon" />
-    <h1>
-       Accesso abusivo a un sistema informatico o telematico 
-    </h1>
+    <h1>Accesso abusivo a un sistema informatico o telematico</h1>
     <div align="centre" class="container">
       <p class="text">
         L’articolo 640 ter del codice penale rende perseguibili l’accesso
@@ -133,7 +129,7 @@
       </p>
     </div>
     <hr class="uk-divider-icon" />
-    <h1>  Misure di sicurezza personali </h1>
+    <h1>Misure di sicurezza personali</h1>
     <p class="text">
       Ora che sai quali sono i reati informatici previsti dal codice penale,
       speriamo che tu ti senta più tutelato. Tuttavia, sebbene la polizia

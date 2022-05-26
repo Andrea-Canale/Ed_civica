@@ -25,9 +25,7 @@
     />
   </div>
   <hr class="uk-divider-icon" />
-  <h1>
-     Costruiamo una Rubber Ducky con un Arduino UNO o MEGA 
-  </h1>
+  <h1>Costruiamo una Rubber Ducky con un Arduino UNO o MEGA</h1>
   <h6 style="color:white;">
     Per questa guida ci serviranno un Arduino UNO e un computer
   </h6>

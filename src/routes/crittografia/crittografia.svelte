@@ -49,21 +49,21 @@
       </p>
       <ul>
         <li class="text">
-           Autenticazione  : processo che permette di attestare l’identità
-          di ciascun partecipante ad una comunicazione;
+          Autenticazione : processo che permette di attestare l’identità di
+          ciascun partecipante ad una comunicazione;
         </li>
         <li class="text">
-           Segretezza  : indispensabile fare in modo che nessuno possa
-          leggere un messaggio, fatta eccezione per il destinatario desiderato;
+          Segretezza : indispensabile fare in modo che nessuno possa leggere un
+          messaggio, fatta eccezione per il destinatario desiderato;
         </li>
         <li class="text">
-           Integrità  : la protezione da modifiche non autorizzate
-          operate sul messaggio trasmesso (il materiale inviato al destinatario non
-          deve poter essere alterato prima della consegna);
+          Integrità : la protezione da modifiche non autorizzate operate sul
+          messaggio trasmesso (il materiale inviato al destinatario non deve
+          poter essere alterato prima della consegna);
         </li>
         <li class="text">
-           Non ripudio  : un meccanismo atto a fornire la certezza
-          che chi trasmette un messaggio non possa negare di averlo inviato.
+          Non ripudio : un meccanismo atto a fornire la certezza che chi
+          trasmette un messaggio non possa negare di averlo inviato.
         </li>
       </ul>
     </div>
@@ -73,11 +73,11 @@
       quello di <a href="/crittografia/sniffing" title="apri crittografia"
         >sniffing</a
       >
-      e  spoofing  Il primo permette di “spiare” il contenuto dei
-      pacchetti dati in transito alla ricerca di informazioni utili; il secondo,
-      mirato agli indirizzi IP, si concretizza nella generazione di pacchetti IP
-      contenenti, come indirizzo IP del mittente, un indirizzo falso che non corrisponde
-      a quello realmente usato dall’aggressore.
+      e spoofing Il primo permette di “spiare” il contenuto dei pacchetti dati in
+      transito alla ricerca di informazioni utili; il secondo, mirato agli indirizzi
+      IP, si concretizza nella generazione di pacchetti IP contenenti, come indirizzo
+      IP del mittente, un indirizzo falso che non corrisponde a quello realmente
+      usato dall’aggressore.
     </p>
 
     <p class="text">
@@ -87,7 +87,7 @@
     </p>
 
     <hr class="uk-divider-icon" />
-    <h1> Tipi di crittografia </h1>
+    <h1>Tipi di crittografia</h1>
     <div align="centre" class="container">
       <div align="left" class="container">
         <p class="text">
@@ -97,22 +97,23 @@
         </p>
         <ul>
           <li class="text">
-             Chiave simmetrica  , noto anche come algoritmo a chiave
-            segreta, dove i messaggi sono decodificabili solo dalla persona che conosce
-            la password. Questi schemi crittografici non vengono di norma utilizzati
-            sulla rete Internet perché la password non può ovviamente viaggiare sullo
-            stesso canale (altrimenti potrebbe diventare preda di utenti malintenzionati
-            interessati alla decodifica del messaggio). La password può essere al
-            limite condivisa usando altri canali ma non è certo l’approccio migliore
-            per scambiarsi messaggi con utenti remoti.
+            Chiave simmetrica , noto anche come algoritmo a chiave segreta, dove
+            i messaggi sono decodificabili solo dalla persona che conosce la
+            password. Questi schemi crittografici non vengono di norma
+            utilizzati sulla rete Internet perché la password non può ovviamente
+            viaggiare sullo stesso canale (altrimenti potrebbe diventare preda
+            di utenti malintenzionati interessati alla decodifica del
+            messaggio). La password può essere al limite condivisa usando altri
+            canali ma non è certo l’approccio migliore per scambiarsi messaggi
+            con utenti remoti.
           </li>
           <li class="text">
-             Chiave asimmetrica  : questo metodo utilizza due chiavi
-            diverse, pubblica (che può essere condivisa con chiunque) e privata (che
-            deve rimanere segreta). Per cifrare un testo, quindi, con la crittografia
-            asimmetrica basta usare la chiave pubblica del destinatario del messaggio
-            mentre quest’ultimo per la decodifica dovrà essere necessariamente in
-            possesso della sua chiave privata.
+            Chiave asimmetrica : questo metodo utilizza due chiavi diverse,
+            pubblica (che può essere condivisa con chiunque) e privata (che deve
+            rimanere segreta). Per cifrare un testo, quindi, con la crittografia
+            asimmetrica basta usare la chiave pubblica del destinatario del
+            messaggio mentre quest’ultimo per la decodifica dovrà essere
+            necessariamente in possesso della sua chiave privata.
           </li>
         </ul>
       </div>

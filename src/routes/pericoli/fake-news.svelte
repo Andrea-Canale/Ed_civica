@@ -25,7 +25,7 @@
     />
   </div>
   <hr class="uk-divider-icon" />
-  <h1> Cosa sono le fake new? </h1>
+  <h1>Cosa sono le fake new?</h1>
   <div align="center" class="container">
     <p class="text">
       Le fake news sono notizie false che vengono diffuse deliberatamente. A
@@ -42,7 +42,7 @@
       Anche la politica e la scienza sono spesso bersaglio delle fake news.
     </p>
     <hr class="uk-divider-icon" />
-    <h1> Come individuare le fake news </h1>
+    <h1>Come individuare le fake news</h1>
     <div align="centre" class="container">
       <p class="text">
         Individuare informazioni false non è sempre facile. Ecco alcuni indizi
@@ -79,7 +79,7 @@
     </div>
 
     <hr class="uk-divider-icon" />
-    <h1> I social media sono moltiplicatori di fake news? </h1>
+    <h1>I social media sono moltiplicatori di fake news?</h1>
     <div align="center" class="container">
       <p class="text">
         Le fake news si diffondono principalmente attraverso le reti sociali,

@@ -27,7 +27,7 @@
     />
     <hr class="uk-divider-icon" />
     <div align="center" class="container">
-      <h1> Il primo attacco DDoS </h1>
+      <h1>Il primo attacco DDoS</h1>
       <p class="text">
         La prima dimostrazione di attacco DoS(essendo stata fatta da un pc
         unico) è stata fatta da Khan C. Smith nel 1997 durante un evento che ha
@@ -37,7 +37,7 @@
         nell'anno a seguire.
       </p>
       <hr class="uk-divider-icon" />
-      <h1> I tipi di attacco DDoS </h1>
+      <h1>I tipi di attacco DDoS</h1>
       <h3>Sys-Flood</h3>
       <p class="text">
         Il Syn-Flooding è stato il primo degli attacchi DoS e consiste
@@ -58,7 +58,7 @@
         POST senza fine e inviando degli header con un contenuto grande.
       </p>
       <hr class="uk-divider-icon" />
-      <h1> Come proteggere un sito dagli attacchi DDoS </h1>
+      <h1>Come proteggere un sito dagli attacchi DDoS</h1>
       <p class="text">
         Per proteggere un sito dagli attacchi DDoS dobbiamo inanzitutto
         configurare il firewall per bloccare le richieste ICMP e bisogna
@@ -70,7 +70,7 @@
       </p>
     </div>
     <hr class="uk-divider-icon" />
-    <h1> Come eseguire un attacco DDoS </h1>
+    <h1>Come eseguire un attacco DDoS</h1>
     <div align="center" class="container" uk-lightbox>
       <h5 class="text">
         La guida è a scopo didattico, i creatori non sono responsabili di

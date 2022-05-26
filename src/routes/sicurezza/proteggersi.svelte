@@ -32,9 +32,7 @@
       specifiche categorie di utenti: i minori e le aziende.
     </p>
     <hr class="uk-divider-icon" />
-    <h1>
-       Rischi per le aziende 
-    </h1>
+    <h1>Rischi per le aziende</h1>
     <p class="text">
       Quando un’azienda viene colpita dall’interno, il rischio non ricade
       soltanto sulla compagnia stessa, ma anche e soprattutto sui clienti e sul
@@ -46,9 +44,7 @@
       di protezione disponibili si rivela più adatto al proprio caso.
     </p>
     <hr class="uk-divider-icon" />
-    <h1>
-       Rischi per i minori 
-    </h1>
+    <h1>Rischi per i minori</h1>
     <div align="centre" class="container">
       <p class="text">
         Cyber bullismo, malware, virus e truffe online sono solo alcuni degli
@@ -61,9 +57,7 @@
       </p>
     </div>
     <hr class="uk-divider-icon" />
-    <h1>
-       Software di protezione 
-    </h1>
+    <h1>Software di protezione</h1>
     <div align="center" class="container">
       <p class="text">
         Molti di questi software dispongono infatti di scanner automatici e che
@@ -81,9 +75,7 @@
       <br />
     </div>
     <hr class="uk-divider-icon" />
-    <h1>
-       Scegliere password complesse 
-    </h1>
+    <h1>Scegliere password complesse</h1>
     <div align="center" class="container">
       <p class="text">
         Le password rappresentano delle vere e proprie chiavi di accesso segrete
@@ -102,9 +94,7 @@
       </p>
     </div>
     <hr class="uk-divider-icon" />
-    <h1>
-       Privilegia siti sicuri per gli acquisti  
-    </h1>
+    <h1>Privilegia siti sicuri per gli acquisti</h1>
     <div align="center" class="container">
       <p class="text">
         Avvalorato dai problemi riscontrati durante la pandemia, lo shopping
@@ -116,7 +106,7 @@
       </p>
     </div>
     <hr class="uk-divider-icon" />
-    <h1> Gestisci con prudenza mail e messaggi sui social </h1>
+    <h1>Gestisci con prudenza mail e messaggi sui social</h1>
     <p class="text">
       La strada preferita di virus e malware è quella che passa direttamente
       all’interno delle caselle email. Milioni sono gli allegati che sono
@@ -128,7 +118,7 @@
       messaggi ricevuti.
     </p>
     <hr class="uk-divider-icon" />
-    <h1> Prestare attenzione a file da scaricare </h1>
+    <h1>Prestare attenzione a file da scaricare</h1>
     <p class="text">
       Il nostro consiglio è quello di procedere sempre con i download dai siti
       web ufficiali e che hanno progettato personalmente i file scaricati.
@@ -136,7 +126,7 @@
       promettono film, serie TV e giochi in maniera completamente gratuita.
     </p>
     <hr class="uk-divider-icon" />
-    <h1> Limita la condivisione di dati personali </h1>
+    <h1>Limita la condivisione di dati personali</h1>
     <p class="text">
       Viviamo nell’epoca in cui la condivisione rappresenta uno strumento
       decisamente potente. In pochissimi clic è possibile inviare un messaggio,
@@ -164,7 +154,7 @@
       di procedere con il loro utilizzo.
     </p>
     <hr class="uk-divider-icon" />
-    <h1> Esegui copie di backup dei dati importanti </h1>
+    <h1>Esegui copie di backup dei dati importanti</h1>
     <p class="text">
       Il ransomware è una delle minacce più complesse da gestire, in quanto le
       soluzioni a disposizione dell’utente sono davvero ridotte al minimo. Nel
@@ -175,7 +165,7 @@
       backup dei dati almeno di quelli più importanti.
     </p>
     <hr class="uk-divider-icon" />
-    <h1> Usare il buon senso nel postare sui social </h1>
+    <h1>Usare il buon senso nel postare sui social</h1>
     <p class="text">
       Piccolo consiglio valido per tutti, ma soprattutto per i minori: postare
       sui social network potrebbe rivelarsi un’azione molto più pericolosa del

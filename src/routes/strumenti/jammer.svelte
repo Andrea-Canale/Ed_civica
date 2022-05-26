@@ -30,7 +30,7 @@
     />
   </div>
   <hr class="uk-divider-icon" />
-  <h1> Costruiamo un Jammer Wi-Fi </h1>
+  <h1>Costruiamo un Jammer Wi-Fi</h1>
   <div align="center" class="container">
     <h5 class="text">
       La guida è a scopo didattico, i creatori non sono responsabili di
