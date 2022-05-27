@@ -36,6 +36,8 @@ export default {
     }),
   ],
   preprocess: sveltePreprocess(),
+  target: '#svelte',
+  router: true,
   kit: {
     adapter: adapter({
       // default options are shown
