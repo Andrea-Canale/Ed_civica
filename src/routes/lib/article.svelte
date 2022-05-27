@@ -1,4 +1,6 @@
 <script lang="ts">
+  import 'purecss/build/base-min.css';
+  
   export let header: string,
     meta: string,
     subtitle: string,
@@ -6,15 +8,9 @@
     imgsrc: string,
     imgcomment: string,
     imgmaxwidth: string;
-  import "./article.css";
+  
 </script>
 
-<svelte:head>
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/purecss@1.0.1/build/base-min.css"
-  />
-</svelte:head>
 
 <article class="uk-article">
   <h1 style="color:white;font-family:Hacked">

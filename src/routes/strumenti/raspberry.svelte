@@ -1,14 +1,10 @@
 <script lang="ts">
   import Article from "../lib/article.svelte";
-  import Bash from "../lib/bash.svelte";
+  import 'purecss/build/base-min.css';
 </script>
 
 <svelte:head>
   <link rel="stylesheet" href="/css/jammer.css" />
-  <link
-    rel="stylesheet"
-    href="https://unpkg.com/purecss@1.0.1/build/base-min.css"
-  />
 </svelte:head>
 
 <section>

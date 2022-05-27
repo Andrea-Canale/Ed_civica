@@ -10,7 +10,11 @@
   }
   import Particles from "svelte-particles";
   import { loadFull } from "tsparticles";
-
+  import  'uikit/dist/css/uikit.css';
+  import 'uikit/dist/js/uikit.js';
+  import 'uikit/dist/js/uikit-icons.js';
+  import 'purecss/build/grids-core-min.css';
+  import 'purecss/build/pure.css';
   let particlesConfig = {
     autoPlay: true,
     background: {
@@ -625,16 +629,6 @@
 </script>
 
 <svelte:head>
-  <!-- UIkit CSS -->
-  <link
-    rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/css/uikit.min.css"
-  />
-  <!-- UIkit JS -->
-  <script
-    src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit.min.js"></script>
-  <script
-    src="https://cdn.jsdelivr.net/npm/uikit@3.14.1/dist/js/uikit-icons.min.js"></script>
   <link rel="stylesheet" href="/css/nav.css" />
 </svelte:head>
 <nav>
@@ -710,7 +704,21 @@
 <main>
   <slot />
 </main>
-
+<footer>
+  <div class="pure-g">
+    <div class="pure-u-1-3 center pure-u-md-1-3">
+      <img src="/img/agnelli.png" width="256px"/>
+    </div>
+    <div class="pure-u-1-3 center pure-u-md-1-3">
+      <p>Sito scritto da Andrea Canale, Marco Cellini e Gioele Mari</p>
+    </div>
+    <div class="pure-u-1-3 center pure-u-md-1-3">
+      <p>Codice sorgente su <a href="javascript:void(window.open('https://github.com/Andrea-Canale/Ed_civica'))">Github</a></p>
+    </div>
+</div>
+  
+  
+</footer>
 <style>
   @import url("https://fonts.googleapis.com/css2?family=Raleway&display=swap");
   .navresponse {
@@ -740,4 +748,12 @@
   h1 {
     color: white;
   }
+  footer{
+    background-color: rgb(71, 70, 70);
+  }
+  .center {
+  height: 109px;
+  line-height: 109px; /* same as height! */
+  text-align: center;
+}
 </style>
