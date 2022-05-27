@@ -20,13 +20,11 @@
   <h3 class="uk-article-meta meta">{meta}</h3>
 
   <p class="submeta">{subtitle}</p>
-  <div align="center">
+  <div class="container" align="center">
     <div uk-lightbox>
       <a href={imgsrc}>
         <img
           src={imgsrc}
-          class="pure-img"
-          style={"max-width: " + imgmaxwidth}
           alt={"foto di " + header}
         />
       </a>
