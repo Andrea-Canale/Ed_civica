@@ -41,8 +41,8 @@ export default {
       // default options are shown
       pages: "build",
       assets: "build",
-      fallback: null,
-      precompress: false,
+      fallback: "src/routes/404.html",
+      precompress: true,
     }),
 
     prerender: {
