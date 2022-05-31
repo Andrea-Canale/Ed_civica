@@ -4,6 +4,7 @@
 </script>
 
 <svelte:head>
+  <title>Reati informatici</title>
   <link rel="stylesheet" href="/css/jammer.css" />
 </svelte:head>
 

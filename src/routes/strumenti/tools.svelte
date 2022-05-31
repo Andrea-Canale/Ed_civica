@@ -5,6 +5,7 @@
 </script>
 
 <svelte:head>
+  <title>Tools</title>
   <link rel="stylesheet" href="/css/jammer.css" />
 </svelte:head>
 

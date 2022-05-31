@@ -5,6 +5,7 @@
 </script>
 
 <svelte:head>
+  <title>DDOS</title>
   <link rel="stylesheet" href="/css/jammer.css" />
 </svelte:head>
 

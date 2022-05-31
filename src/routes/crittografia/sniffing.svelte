@@ -5,6 +5,7 @@
 </script>
 
 <svelte:head>
+  <title>Sniffing</title>
   <link rel="stylesheet" href="/css/jammer.css" />
 </svelte:head>
 
